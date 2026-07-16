@@ -2,23 +2,19 @@
 
 Dataset of AI-generated timeline annotations from Polymarket, collected and analyzed by the Tow Center for Digital Journalism at Columbia University.
 
----
-
 ## Background
 
-Every market page on Polymarket displays a price chart with a timeline of annotated events — brief AI-generated blurbs that explain price movements. Each annotation includes a headline, a one-paragraph summary, and a list of cited news sources with outlet names and URLs.
+Some Polymarket markets contain a section called "Market Context" that displays a price chart with a timeline of annotated events. These arebrief AI-generated blurbs that provide context for price movements. Each annotation includes a headline, a one-paragraph summary, and a list of cited news sources with outlet names and URLs.
 
-These annotations are not written by humans. Polymarket's own API identifies each one with `"source": "linkup"`, attributing them to [Linkup](https://www.linkup.so), a third-party AI search and summarization service. This attribution is not disclosed to users on the platform.
+These annotations are not written by humans. Polymarket's own API identifies each one with `"source": "linkup"`, attributing them to [Linkup](https://www.linkup.so), a third-party AI search and summarization service. 
 
-Linkup operates in `sourcedAnswer` mode: given a query, it retrieves web sources and generates a summary. The result — headline, summary, and citations — is stored by Polymarket and displayed as factual context on each market page.
-
----
+Linkup operates in `sourcedAnswer` mode: given a query, it retrieves web sources and generates a summary. The result — headline, summary, and citations — is stored by Polymarket and displayed as context on each market page.
 
 ## What the data shows
 
-Polymarket launched the annotation feature on **April 29, 2026**. All annotations timestamped before that date were generated retroactively — an annotation labeled "November 2024" was written in late April 2026.
+Polymarket launched the "market context" timlines on **April 29, 2026**, although some of the items were older than that, dating back to 2024. We collected these timelines from May 21 to July 12, 2026 and analyzed the TK citations across TK timelines. 
 
-Analysis of 9,301 citations across 8,687 annotations found **793 provably inaccurate citations (8.5%)** across 60 markets:
+We've categorized the urls into the following groups: 
 
 | Issue type | Count |
 |---|---|
@@ -30,7 +26,7 @@ Analysis of 9,301 citations across 8,687 annotations found **793 provably inaccu
 | example.com placeholder URLs | 7 |
 | **Total** | **793** |
 
-Additionally, Polymarket cited its own platform pages (polymarket.com, polymarketanalytics.com, myriad.markets) as news sources **73 times**.
+Additionally, Polymarket cited its own platform pages (polymarket.com, polymarketanalytics.com, myriad.markets) **73 times**.
 
 ---
 
@@ -42,31 +38,7 @@ Additionally, Polymarket cited its own platform pages (polymarket.com, polymarke
 
 **Known bad domains:** A list of domains verified to publish AI-generated or low-quality content, cross-referenced against the citation data.
 
-**Non-news sources:** Wikipedia articles, social media posts, prediction market pages, and odds aggregators cited as journalism.
-
 ---
-
-## How the data was collected
-
-### Web scraping — not an official API
-
-The annotation data in this dataset was collected by scraping Polymarket's website, not through any official or documented API.
-
-Polymarket serves market page content as React Server Component (RSC) payloads — a format used by Next.js to send structured data to the browser instead of pre-rendered HTML. By sending HTTP headers `Accept: text/x-component` and `RSC: 1` to a market's public URL (e.g. `https://polymarket.com/event/{slug}`), the server returns a machine-readable data stream instead of a full webpage. The annotation array — including headlines, summaries, citations, and the `"source"` field — is embedded in that stream.
-
-This is the same request a browser issues when navigating between pages on Polymarket. The endpoint is public and requires no authentication. Polymarket does not provide an official API for annotation data, and does not publish documentation for this endpoint.
-
-Each annotation object contains 12 fields: `timestamp`, `unixTime`, `priceChange`, `tweets`, `summary`, `timeRange`, `title`, `sources`, `outcome`, `priceBefore`, `priceAfter`, `source`. The `source` field reads `"linkup"` on 99.8% of annotations in this dataset — this attribution comes directly from Polymarket's server response, not from any inference on our part.
-
-### Linkup attribution
-
-[Linkup](https://www.linkup.so) is an AI-powered search API that returns structured answers with citations. Their `sourcedAnswer` endpoint takes a query, searches the web, and returns a generated summary with a list of sources. The format Polymarket receives — and stores — maps directly to Linkup's output format.
-
-Polymarket does not disclose this AI sourcing relationship to users anywhere on the platform.
-
-### Market discovery
-
-The list of markets to scrape was assembled using Polymarket's Gamma API (`gamma-api.polymarket.com/events`) — a public, undocumented but openly accessible data endpoint — queried by category (politics, economy, science, sports, crypto, culture) and sorted by 24-hour trading volume. This is the only part of the data collection that uses an API-style endpoint; the annotation content itself comes from page scraping as described above.
 
 ### Data collection period
 
@@ -76,10 +48,6 @@ Data was collected automatically via GitHub Actions on a 30-minute to 6-hour sch
 **Annotation timestamp range:** January 2023 – July 12, 2026  
 **Markets covered:** 78  
 **Total annotations:** 8,687  
-**Retroactive annotations (pre-April 29, 2026):** 5,483  
-**Live annotations (April 29 – July 12, 2026):** 3,204
-
-URL status checks (HTTP HEAD requests) were performed on all 5,260 unique URLs in the dataset.
 
 ---
 

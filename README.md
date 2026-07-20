@@ -4,7 +4,7 @@ Dataset of AI-generated timeline annotations from Polymarket, collected and anal
 
 ## Background
 
-Some Polymarket markets contain a section called "Market Context" that displays a price chart with a timeline of annotated events. These arebrief AI-generated blurbs that provide context for price movements. Each annotation includes a headline, a one-paragraph summary, and a list of cited news sources with outlet names and URLs.
+Some Polymarket markets contain a section called "Market Context" that displays a price chart with a timeline of annotated events. These are brief AI-generated blurbs that provide context for price movements. Each annotation includes a headline, a one-paragraph summary, and a list of cited news sources with outlet names and URLs.
 
 These annotations are not written by humans. Polymarket's own API identifies each one with `"source": "linkup"`, attributing them to [Linkup](https://www.linkup.so), a third-party AI search and summarization service. 
 
@@ -12,7 +12,7 @@ Linkup operates in `sourcedAnswer` mode: given a query, it retrieves web sources
 
 ## What the data shows
 
-Polymarket launched the "market context" timlines on **April 29, 2026**, although some of the items were older than that, dating back to 2024. We collected these timelines from May 21 to July 12, 2026 and analyzed the TK citations across TK timelines. 
+Polymarket launched the "market context" timelines on **April 29, 2026**, although some of the items were older than that, dating back to 2024. We collected these timelines from May 21 to July 12, 2026 and analyzed 9,371 citations across 8,687 timelines. 
 
 We've categorized the urls into the following groups: 
 
@@ -42,9 +42,9 @@ Additionally, Polymarket cited its own platform pages (polymarket.com, polymarke
 
 ### Data collection period
 
-Data was collected automatically via GitHub Actions on a 30-minute to 6-hour schedule.
+Data was collected automatically on a 30-minute to 6-hour schedule.
 
-**Collection period:** May 21 – July 12, 2026  
+**Collection period:** May 21 – July 15, 2026  
 **Annotation timestamp range:** January 2023 – July 12, 2026  
 **Markets covered:** 78  
 **Total annotations:** 8,687  

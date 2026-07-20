@@ -96,40 +96,6 @@ All 8,687 annotations through July 12, 2026. One row per annotation.
 
 ---
 
-### `data/market_citations.csv`
-
-Per-market, per-outlet citation summary. One row per market + outlet combination.
-
-| Column | Description |
-|---|---|
-| `market_slug` | Market identifier |
-| `market_title` | Market question |
-| `category` | Market category |
-| `outlet_name` | Outlet name as cited in annotations |
-| `citations` | Number of citations to this outlet in this market |
-| `dead_urls` | Citations returning HTTP 404 |
-| `known_citation_issues` | Count of flagged citations for this outlet in this market |
-| `market_total_citations` | Total citations across all annotations in this market |
-| `market_total_dead` | Total dead URLs in this market |
-| `market_total_issues` | Total flagged citations in this market |
-| `market_dead_pct` | Percentage of citations that are dead |
-
----
-
-### `data/url_status.csv`
-
-HTTP status of every unique URL cited across all annotations. One row per URL.
-
-| Column | Description |
-|---|---|
-| `url` | Full URL |
-| `domain` | Domain |
-| `outlet_names` | Outlet names used for this URL across annotations |
-| `markets` | Markets where this URL appears |
-| `http_status` | HTTP response code, or `CONNECTION_ERROR` / `TIMEOUT` / `SSL_ERROR` |
-| `known_issue` | Issue type if flagged |
-
----
 
 ## Notes on methodology
 

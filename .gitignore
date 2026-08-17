@@ -1,0 +1,7 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# Big files — snapshotted separately, not tracked
+market_context_check/http_cache.sqlite
+market_context_check/annotations_new.csv

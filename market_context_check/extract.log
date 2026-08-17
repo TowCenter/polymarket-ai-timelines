@@ -1,0 +1,1347 @@
+[01:15:27] === extract_annotations run ===
+[01:15:27] args: {'test': 3, 'max_anns': 10, 'min_anns': 1, 'out': '/tmp/anns_test.csv', 'logfile': '/Users/mehtad/Development/polymarket_analysis_public/market_context_check/extract.log'}
+[01:15:27] candidate slugs (min=1, max=10): 6
+[01:15:27] TEST MODE — processing 3 slugs
+[01:15:27] [1/3] will-hezbollah-disarm-by-march-31  (markers=8)
+[01:15:27]     fetched: 0.69 MB, 173 ms, from_cache=False
+[01:15:27]     extracted: 0 annotations in 36 ms
+[01:15:27]     total: 210 ms
+[01:15:27] [2/3] next-uk-chancellor-of-the-exchequer-in-2026-20260621005319178  (markers=8)
+[01:15:27]     fetched: 0.79 MB, 247 ms, from_cache=False
+[01:15:27]     extracted: 0 annotations in 34 ms
+[01:15:27]     total: 282 ms
+[01:15:27] [3/3] james-comey-arrested-by-may-15  (markers=6)
+[01:15:27]     fetched: 0.66 MB, 202 ms, from_cache=False
+[01:15:27]     extracted: 0 annotations in 23 ms
+[01:15:27]     total: 225 ms
+[01:15:27] Wrote 0 annotation rows to /tmp/anns_test.csv
+[01:17:37] === extract_annotations run ===
+[01:17:37] args: {'test': 3, 'max_anns': 10, 'min_anns': 1, 'out': '/tmp/anns_test.csv', 'logfile': '/Users/mehtad/Development/polymarket_analysis_public/market_context_check/extract.log'}
+[01:17:37] candidate slugs (min=1, max=10): 7
+[01:17:37] TEST MODE — processing 3 slugs
+[01:17:37] [1/3] will-hezbollah-disarm-by-march-31  (markers=8)
+[01:17:37]     fetched: 0.69 MB, 14 ms, from_cache=True
+[01:17:37]     extracted: 8 annotations in 3 ms
+[01:17:37]     - 2026-03-02 12:00:00+00  In a televised address Qassem announces a âframeworkâ that begins only after
+[01:17:37]     - 2026-04-09 12:00:00+00  Reuters reports Israelâs push for direct talks with Lebanon âas soon as poss
+[01:17:37]     total: 17 ms
+[01:17:37] [2/3] next-uk-chancellor-of-the-exchequer-in-2026-20260621005319178  (markers=8)
+[01:17:37]     fetched: 0.79 MB, 13 ms, from_cache=True
+[01:17:37]     extracted: 8 annotations in 1 ms
+[01:17:37]     - 2026-06-26 12:00:00+00  Reports emerge that Andy Burnham is expected to appoint Shabana Mahmood as Chanc
+[01:17:37]     - 2026-07-10 12:00:00+00  Shabana Mahmood emerges as Burnhamâs likely pick for Chancellor amid mixed rea
+[01:17:37]     total: 15 ms
+[01:17:37] [3/3] james-comey-arrested-by-may-15  (markers=6)
+[01:17:37]     fetched: 0.66 MB, 3 ms, from_cache=True
+[01:17:37]     extracted: 6 annotations in 1 ms
+[01:17:37]     - 2026-04-28 12:00:00+00  Former FBI Director James Comey indicted by a federal grand jury in North Caroli
+[01:17:37]     - 2026-04-28 12:00:00+00  Acting Attorney General Todd Blanche and FBI Director Kash Patel publicly announ
+[01:17:37]     total: 5 ms
+[01:17:37] Wrote 22 annotation rows to /tmp/anns_test.csv
+[01:17:37] Markets covered: 3
+[01:18:16] === extract_annotations run ===
+[01:18:16] args: {'test': 3, 'max_anns': 10, 'min_anns': 1, 'out': '/tmp/anns_test.csv', 'logfile': '/Users/mehtad/Development/polymarket_analysis_public/market_context_check/extract.log'}
+[01:18:16] candidate slugs (min=1, max=10): 7
+[01:18:16] TEST MODE — processing 3 slugs
+[01:18:16] [1/3] will-hezbollah-disarm-by-march-31  (markers=8)
+[01:18:16]     fetched: 0.69 MB, 11 ms, from_cache=True
+[01:18:16]     extracted: 8 annotations in 1 ms
+[01:18:16]     - 2026-03-02 12:00:00+00  In a televised address Qassem announces a “framework” that begins only after Isr
+[01:18:16]     - 2026-04-09 12:00:00+00  Reuters reports Israel’s push for direct talks with Lebanon “as soon as possible
+[01:18:16]     total: 13 ms
+[01:18:16] [2/3] next-uk-chancellor-of-the-exchequer-in-2026-20260621005319178  (markers=8)
+[01:18:16]     fetched: 0.79 MB, 11 ms, from_cache=True
+[01:18:16]     extracted: 8 annotations in 1 ms
+[01:18:16]     - 2026-06-26 12:00:00+00  Reports emerge that Andy Burnham is expected to appoint Shabana Mahmood as Chanc
+[01:18:16]     - 2026-07-10 12:00:00+00  Shabana Mahmood emerges as Burnham’s likely pick for Chancellor amid mixed react
+[01:18:16]     total: 13 ms
+[01:18:16] [3/3] james-comey-arrested-by-may-15  (markers=6)
+[01:18:16]     fetched: 0.66 MB, 6 ms, from_cache=True
+[01:18:16]     extracted: 6 annotations in 1 ms
+[01:18:16]     - 2026-04-28 12:00:00+00  Former FBI Director James Comey indicted by a federal grand jury in North Caroli
+[01:18:16]     - 2026-04-28 12:00:00+00  Acting Attorney General Todd Blanche and FBI Director Kash Patel publicly announ
+[01:18:16]     total: 8 ms
+[01:18:16] Wrote 22 annotation rows to /tmp/anns_test.csv
+[01:18:16] Markets covered: 3
+[01:21:18] === extract_annotations run ===
+[01:21:18] args: {'test': 3, 'max_anns': 10, 'min_anns': 1, 'out': '/Users/mehtad/Development/polymarket_analysis_public/market_context_check/annotations_new.csv', 'logfile': '/Users/mehtad/Development/polymarket_analysis_public/market_context_check/extract.log'}
+[01:21:18] candidate slugs (min=1, max=10): 7
+[01:21:18] TEST MODE — processing 3 slugs
+[01:21:18] [1/3] will-hezbollah-disarm-by-march-31  (markers=8)
+[01:21:18]     fetched: 0.69 MB, 14 ms, from_cache=True
+[01:21:18]     extracted: 8 annotations in 1 ms
+[01:21:18]     - 2026-03-02 12:00:00+00  In a televised address Qassem announces a “framework” that begins only after Isr
+[01:21:18]     - 2026-04-09 12:00:00+00  Reuters reports Israel’s push for direct talks with Lebanon “as soon as possible
+[01:21:18]     total: 16 ms
+[01:21:18] [2/3] next-uk-chancellor-of-the-exchequer-in-2026-20260621005319178  (markers=8)
+[01:21:18]     fetched: 0.79 MB, 9 ms, from_cache=True
+[01:21:18]     extracted: 8 annotations in 1 ms
+[01:21:18]     - 2026-06-26 12:00:00+00  Reports emerge that Andy Burnham is expected to appoint Shabana Mahmood as Chanc
+[01:21:18]     - 2026-07-10 12:00:00+00  Shabana Mahmood emerges as Burnham’s likely pick for Chancellor amid mixed react
+[01:21:18]     total: 11 ms
+[01:21:18] [3/3] james-comey-arrested-by-may-15  (markers=6)
+[01:21:18]     fetched: 0.66 MB, 5 ms, from_cache=True
+[01:21:18]     extracted: 6 annotations in 1 ms
+[01:21:18]     - 2026-04-28 12:00:00+00  Former FBI Director James Comey indicted by a federal grand jury in North Caroli
+[01:21:18]     - 2026-04-28 12:00:00+00  Acting Attorney General Todd Blanche and FBI Director Kash Patel publicly announ
+[01:21:18]     total: 7 ms
+[01:21:18] Wrote 22 annotation rows to /Users/mehtad/Development/polymarket_analysis_public/market_context_check/annotations_new.csv
+[01:21:18] Markets covered: 3
+[01:49:55] === extract_annotations run ===
+[01:49:55] args: {'test': 0, 'max_anns': None, 'min_anns': 1, 'out': '/Users/mehtad/Development/polymarket_analysis_public/market_context_check/annotations_new.csv', 'logfile': '/Users/mehtad/Development/polymarket_analysis_public/market_context_check/extract.log'}
+[01:49:55] candidate slugs (min=1, max=None): 156
+[01:49:55] [1/156] which-party-will-win-the-house-in-2026  (markers=2568)
+[01:49:55]     fetched: 12.71 MB, 13 ms, from_cache=True
+[01:49:55]     extracted: 2581 annotations in 194 ms
+[01:49:55]     total: 219 ms
+[01:49:55] [2/156] will-russia-capture-kostyantynivka-by  (markers=2429)
+[01:49:55]     fetched: 12.48 MB, 17 ms, from_cache=True
+[01:49:55]     extracted: 2442 annotations in 154 ms
+[01:49:55]     total: 178 ms
+[01:49:55] [3/156] will-us-withdraw-from-nato-before-2027  (markers=2253)
+[01:49:55]     fetched: 11.33 MB, 15 ms, from_cache=True
+[01:49:55]     extracted: 2259 annotations in 138 ms
+[01:49:55]     total: 160 ms
+[01:49:55] [4/156] netanyahu-out-before-2027  (markers=2206)
+[01:49:56]     fetched: 11.15 MB, 770 ms, from_cache=False
+[01:49:56]     extracted: 2206 annotations in 134 ms
+[01:49:56]     total: 911 ms
+[01:49:56] [5/156] which-party-will-win-the-senate-in-2026  (markers=2199)
+[01:49:57]     fetched: 10.85 MB, 733 ms, from_cache=False
+[01:49:57]     extracted: 2208 annotations in 148 ms
+[01:49:57]     total: 891 ms
+[01:49:57] [6/156] ukraine-recognizes-russian-sovereignty-over-ukrainian-territory-in-2025  (markers=1983)
+[01:49:58]     fetched: 10.08 MB, 665 ms, from_cache=False
+[01:49:58]     extracted: 1983 annotations in 126 ms
+[01:49:58]     total: 798 ms
+[01:49:58] [7/156] openai-ipo-by  (markers=1673)
+[01:49:59]     fetched: 8.55 MB, 864 ms, from_cache=False
+[01:49:59]     extracted: 1676 annotations in 122 ms
+[01:49:59]     total: 995 ms
+[01:49:59] [8/156] ukraine-election-called-in-2025  (markers=1574)
+[01:50:00]     fetched: 8.01 MB, 672 ms, from_cache=False
+[01:50:00]     extracted: 1580 annotations in 96 ms
+[01:50:00]     total: 773 ms
+[01:50:00] [9/156] scotus-accepts-sports-event-contract-case-by-july-31-2026  (markers=1533)
+[01:50:00]     fetched: 7.93 MB, 590 ms, from_cache=False
+[01:50:00]     extracted: 1535 annotations in 96 ms
+[01:50:00]     total: 692 ms
+[01:50:00] [10/156] will-any-country-leave-nato-in-2025  (markers=1521)
+[01:50:01]     fetched: 7.88 MB, 527 ms, from_cache=False
+[01:50:01]     extracted: 1521 annotations in 93 ms
+[01:50:01]     total: 625 ms
+[01:50:01] [11/156] will-the-us-confirm-that-aliens-exist-before-2027  (markers=1370)
+[01:50:01]     fetched: 7.09 MB, 506 ms, from_cache=False
+[01:50:02]     extracted: 1378 annotations in 101 ms
+[01:50:02]     total: 611 ms
+[01:50:02] [12/156] balance-of-power-2026-midterms  (markers=1336)
+[01:50:02]     fetched: 6.71 MB, 7 ms, from_cache=True
+[01:50:02]     extracted: 1351 annotations in 85 ms
+[01:50:02]     total: 97 ms
+[01:50:02] [13/156] will-base-launch-a-token-in-2025-341  (markers=1328)
+[01:50:02]     fetched: 6.92 MB, 513 ms, from_cache=False
+[01:50:02]     extracted: 1334 annotations in 85 ms
+[01:50:02]     total: 604 ms
+[01:50:02] [14/156] will-russia-capture-lyman-in-2025  (markers=1323)
+[01:50:03]     fetched: 6.99 MB, 436 ms, from_cache=False
+[01:50:03]     extracted: 1328 annotations in 82 ms
+[01:50:03]     total: 523 ms
+[01:50:03] [15/156] which-party-wins-2028-us-presidential-election  (markers=1220)
+[01:50:03]     fetched: 6.02 MB, 528 ms, from_cache=False
+[01:50:03]     extracted: 1227 annotations in 70 ms
+[01:50:03]     total: 603 ms
+[01:50:03] [16/156] ukraine-election-held-in-2025  (markers=1163)
+[01:50:04]     fetched: 6.16 MB, 499 ms, from_cache=False
+[01:50:04]     extracted: 1163 annotations in 77 ms
+[01:50:04]     total: 580 ms
+[01:50:04] [17/156] brazil-presidential-election  (markers=1070)
+[01:50:05]     fetched: 5.94 MB, 591 ms, from_cache=False
+[01:50:05]     extracted: 1084 annotations in 70 ms
+[01:50:05]     total: 665 ms
+[01:50:05] [18/156] presidential-election-winner-2028  (markers=940)
+[01:50:05]     fetched: 5.62 MB, 506 ms, from_cache=False
+[01:50:05]     extracted: 954 annotations in 61 ms
+[01:50:05]     total: 571 ms
+[01:50:05] [19/156] starmer-out-in-2025  (markers=917)
+[01:50:06]     fetched: 5.13 MB, 375 ms, from_cache=False
+[01:50:06]     extracted: 917 annotations in 56 ms
+[01:50:06]     total: 434 ms
+[01:50:06] [20/156] russia-nuclear-test-by  (markers=903)
+[01:50:06]     fetched: 4.93 MB, 387 ms, from_cache=False
+[01:50:06]     extracted: 904 annotations in 88 ms
+[01:50:06]     total: 478 ms
+[01:50:06] [21/156] israel-and-syria-normalize-relations-in-2025  (markers=894)
+[01:50:07]     fetched: 4.85 MB, 412 ms, from_cache=False
+[01:50:07]     extracted: 894 annotations in 61 ms
+[01:50:07]     total: 476 ms
+[01:50:07] [22/156] democratic-presidential-nominee-2028  (markers=880)
+[01:50:07]     fetched: 5.38 MB, 391 ms, from_cache=False
+[01:50:07]     extracted: 894 annotations in 55 ms
+[01:50:07]     total: 450 ms
+[01:50:07] [23/156] putin-out-before-2027  (markers=838)
+[01:50:07]     fetched: 4.47 MB, 339 ms, from_cache=False
+[01:50:07]     extracted: 858 annotations in 58 ms
+[01:50:07]     total: 401 ms
+[01:50:07] [24/156] where-will-zelenskyy-and-putin-meet-next  (markers=812)
+[01:50:08]     fetched: 4.63 MB, 461 ms, from_cache=False
+[01:50:08]     extracted: 817 annotations in 58 ms
+[01:50:08]     total: 523 ms
+[01:50:08] [25/156] will-ukraine-recapture-crimean-territory-by-june-30-2026  (markers=798)
+[01:50:09]     fetched: 4.36 MB, 522 ms, from_cache=False
+[01:50:09]     extracted: 798 annotations in 51 ms
+[01:50:09]     total: 575 ms
+[01:50:09] [26/156] when-will-bitcoin-hit-150k  (markers=794)
+[01:50:09]     fetched: 4.32 MB, 473 ms, from_cache=False
+[01:50:09]     extracted: 794 annotations in 48 ms
+[01:50:09]     total: 524 ms
+[01:50:09] [27/156] nato-x-russia-military-clash-in-2025  (markers=790)
+[01:50:10]     fetched: 4.39 MB, 557 ms, from_cache=False
+[01:50:10]     extracted: 792 annotations in 47 ms
+[01:50:10]     total: 607 ms
+[01:50:10] [28/156] israeli-parliament-dissolved-by-october-31  (markers=739)
+[01:50:10]     fetched: 4.22 MB, 30 ms, from_cache=True
+[01:50:10]     extracted: 739 annotations in 45 ms
+[01:50:10]     total: 77 ms
+[01:50:10] [29/156] 2026-south-korean-local-elections-party-winner  (markers=739)
+[01:50:10]     fetched: 4.24 MB, 40 ms, from_cache=True
+[01:50:10]     extracted: 739 annotations in 46 ms
+[01:50:10]     total: 89 ms
+[01:50:10] [30/156] republican-presidential-nominee-2028  (markers=701)
+[01:50:11]     fetched: 4.37 MB, 700 ms, from_cache=False
+[01:50:11]     extracted: 713 annotations in 73 ms
+[01:50:11]     total: 776 ms
+[01:50:11] [31/156] los-angeles-mayoral-election-117  (markers=701)
+[01:50:11]     fetched: 3.91 MB, 402 ms, from_cache=False
+[01:50:11]     extracted: 718 annotations in 45 ms
+[01:50:11]     total: 449 ms
+[01:50:11] [32/156] richest-person-on-december-31-2026  (markers=681)
+[01:50:11]     fetched: 3.76 MB, 302 ms, from_cache=False
+[01:50:11]     extracted: 689 annotations in 63 ms
+[01:50:11]     total: 367 ms
+[01:50:11] [33/156] megaeth-airdrop-by  (markers=673)
+[01:50:12]     fetched: 3.70 MB, 409 ms, from_cache=False
+[01:50:12]     extracted: 673 annotations in 46 ms
+[01:50:12]     total: 458 ms
+[01:50:12] [34/156] miguel-daz-canel-out-as-leader-of-cuba-by-june-30  (markers=594)
+[01:50:12]     fetched: 3.38 MB, 291 ms, from_cache=False
+[01:50:12]     extracted: 594 annotations in 37 ms
+[01:50:12]     total: 330 ms
+[01:50:12] [35/156] us-x-russia-military-clash-by  (markers=594)
+[01:50:13]     fetched: 3.41 MB, 269 ms, from_cache=False
+[01:50:13]     extracted: 594 annotations in 45 ms
+[01:50:13]     total: 317 ms
+[01:50:13] [36/156] will-metamask-launch-a-token-in-2025  (markers=586)
+[01:50:13]     fetched: 3.30 MB, 292 ms, from_cache=False
+[01:50:13]     extracted: 597 annotations in 37 ms
+[01:50:13]     total: 331 ms
+[01:50:13] [37/156] who-will-be-the-next-prime-minister-of-israel-after-the-next-election  (markers=573)
+[01:50:13]     fetched: 3.51 MB, 314 ms, from_cache=False
+[01:50:13]     extracted: 588 annotations in 43 ms
+[01:50:13]     total: 360 ms
+[01:50:13] [38/156] kharg-island-no-longer-under-iranian-control-by-march-31  (markers=563)
+[01:50:14]     fetched: 3.39 MB, 269 ms, from_cache=False
+[01:50:14]     extracted: 563 annotations in 43 ms
+[01:50:14]     total: 314 ms
+[01:50:14] [39/156] largest-company-end-of-december-2026  (markers=545)
+[01:50:14]     fetched: 3.07 MB, 369 ms, from_cache=False
+[01:50:14]     extracted: 549 annotations in 39 ms
+[01:50:14]     total: 410 ms
+[01:50:14] [40/156] colombia-presidential-election  (markers=538)
+[01:50:14]     fetched: 3.33 MB, 286 ms, from_cache=False
+[01:50:14]     extracted: 538 annotations in 42 ms
+[01:50:14]     total: 331 ms
+[01:50:14] [41/156] which-movie-has-biggest-opening-weekend-in-2026  (markers=522)
+[01:50:15]     fetched: 3.14 MB, 255 ms, from_cache=False
+[01:50:15]     extracted: 522 annotations in 39 ms
+[01:50:15]     total: 296 ms
+[01:50:15] [42/156] who-will-leave-trump-administration-before-2027  (markers=504)
+[01:50:15]     fetched: 3.19 MB, 339 ms, from_cache=False
+[01:50:15]     extracted: 504 annotations in 41 ms
+[01:50:15]     total: 383 ms
+[01:50:15] [43/156] openai-ipo-closing-market-cap  (markers=494)
+[01:50:15]     fetched: 3.00 MB, 275 ms, from_cache=False
+[01:50:15]     extracted: 497 annotations in 38 ms
+[01:50:15]     total: 315 ms
+[01:50:15] [44/156] california-governor-election-2026  (markers=476)
+[01:50:16]     fetched: 2.99 MB, 240 ms, from_cache=False
+[01:50:16]     extracted: 480 annotations in 35 ms
+[01:50:16]     total: 278 ms
+[01:50:16] [45/156] israel-withdraws-from-lebanon-by  (markers=472)
+[01:50:16]     fetched: 2.88 MB, 249 ms, from_cache=False
+[01:50:16]     extracted: 476 annotations in 37 ms
+[01:50:16]     total: 288 ms
+[01:50:16] [46/156] harvey-weinstein-prison-time  (markers=457)
+[01:50:16]     fetched: 2.75 MB, 30 ms, from_cache=True
+[01:50:16]     extracted: 457 annotations in 27 ms
+[01:50:16]     total: 59 ms
+[01:50:16] [47/156] standx-fdv-above-one-day-after-launch  (markers=446)
+[01:50:16]     fetched: 2.74 MB, 356 ms, from_cache=False
+[01:50:16]     extracted: 449 annotations in 34 ms
+[01:50:16]     total: 392 ms
+[01:50:16] [48/156] fed-decision-in-july-181  (markers=439)
+[01:50:17]     fetched: 2.73 MB, 277 ms, from_cache=False
+[01:50:17]     extracted: 439 annotations in 34 ms
+[01:50:17]     total: 313 ms
+[01:50:17] [49/156] what-will-happen-before-gta-vi  (markers=438)
+[01:50:17]     fetched: 2.67 MB, 470 ms, from_cache=False
+[01:50:17]     extracted: 438 annotations in 33 ms
+[01:50:17]     total: 505 ms
+[01:50:17] [50/156] will-russia-capture-all-of-kupiansk-by  (markers=434)
+[01:50:17]     fetched: 2.68 MB, 305 ms, from_cache=False
+[01:50:17]     extracted: 434 annotations in 37 ms
+[01:50:17]     total: 344 ms
+[01:50:17] [51/156] sweden-parliamentary-election-winner  (markers=430)
+[01:50:18]     fetched: 2.74 MB, 239 ms, from_cache=False
+[01:50:18]     extracted: 430 annotations in 37 ms
+[01:50:18]     total: 280 ms
+[01:50:18] [52/156] where-will-2026-rank-among-the-hottest-years-on-record  (markers=421)
+[01:50:18]     fetched: 2.63 MB, 380 ms, from_cache=False
+[01:50:18]     extracted: 426 annotations in 28 ms
+[01:50:18]     total: 413 ms
+[01:50:18] [53/156] metamask-fdv-above-one-day-after-launch  (markers=419)
+[01:50:18]     fetched: 2.47 MB, 229 ms, from_cache=False
+[01:50:18]     extracted: 419 annotations in 33 ms
+[01:50:18]     total: 264 ms
+[01:50:18] [54/156] how-many-different-countries-will-israel-strike-in-2026  (markers=401)
+[01:50:19]     fetched: 2.63 MB, 270 ms, from_cache=False
+[01:50:19]     extracted: 401 annotations in 33 ms
+[01:50:19]     total: 305 ms
+[01:50:19] [55/156] trump-announces-us-blockade-of-hormuz-lifted-by  (markers=399)
+[01:50:19]     fetched: 2.68 MB, 269 ms, from_cache=False
+[01:50:19]     extracted: 399 annotations in 25 ms
+[01:50:19]     total: 296 ms
+[01:50:19] [56/156] iran-agrees-to-surrender-enriched-uranium-stockpile-by  (markers=393)
+[01:50:19]     fetched: 2.58 MB, 276 ms, from_cache=False
+[01:50:19]     extracted: 393 annotations in 32 ms
+[01:50:19]     total: 309 ms
+[01:50:19] [57/156] opensea-fdv-above-one-day-after-launch  (markers=385)
+[01:50:20]     fetched: 2.40 MB, 353 ms, from_cache=False
+[01:50:20]     extracted: 388 annotations in 33 ms
+[01:50:20]     total: 388 ms
+[01:50:20] [58/156] us-iran-final-nuclear-deal-by-20260621201254412  (markers=374)
+[01:50:20]     fetched: 2.57 MB, 242 ms, from_cache=False
+[01:50:20]     extracted: 389 annotations in 29 ms
+[01:50:20]     total: 272 ms
+[01:50:20] [59/156] who-will-acquire-tiktok-559  (markers=371)
+[01:50:20]     fetched: 2.32 MB, 80 ms, from_cache=True
+[01:50:20]     extracted: 371 annotations in 23 ms
+[01:50:20]     total: 104 ms
+[01:50:20] [60/156] how-high-will-inflation-get-in-2026  (markers=356)
+[01:50:20]     fetched: 2.33 MB, 385 ms, from_cache=False
+[01:50:21]     extracted: 362 annotations in 33 ms
+[01:50:21]     total: 420 ms
+[01:50:21] [61/156] how-many-different-countries-will-the-us-strike-in-2026  (markers=356)
+[01:50:21]     fetched: 2.45 MB, 221 ms, from_cache=False
+[01:50:21]     extracted: 358 annotations in 30 ms
+[01:50:21]     total: 253 ms
+[01:50:21] [62/156] who-will-close-warner-bros-acquisition  (markers=353)
+[01:50:21]     fetched: 2.27 MB, 245 ms, from_cache=False
+[01:50:21]     extracted: 354 annotations in 23 ms
+[01:50:21]     total: 270 ms
+[01:50:21] [63/156] what-iranian-demands-will-trump-agree-to-by-june-30  (markers=352)
+[01:50:21]     fetched: 2.43 MB, 382 ms, from_cache=False
+[01:50:21]     extracted: 352 annotations in 29 ms
+[01:50:21]     total: 413 ms
+[01:50:21] [64/156] us-x-iran-diplomatic-meeting-by-329  (markers=350)
+[01:50:22]     fetched: 2.58 MB, 337 ms, from_cache=False
+[01:50:22]     extracted: 350 annotations in 27 ms
+[01:50:22]     total: 366 ms
+[01:50:22] [65/156] will-anthropics-valuation-hit-by-december-31  (markers=342)
+[01:50:22]     fetched: 2.49 MB, 245 ms, from_cache=False
+[01:50:22]     extracted: 344 annotations in 24 ms
+[01:50:22]     total: 271 ms
+[01:50:22] [66/156] largest-company-end-of-june-712  (markers=334)
+[01:50:22]     fetched: 2.16 MB, 264 ms, from_cache=False
+[01:50:22]     extracted: 334 annotations in 26 ms
+[01:50:22]     total: 291 ms
+[01:50:22] [67/156] fed-decision-in-june-825  (markers=317)
+[01:50:23]     fetched: 2.21 MB, 342 ms, from_cache=False
+[01:50:23]     extracted: 317 annotations in 29 ms
+[01:50:23]     total: 372 ms
+[01:50:23] [68/156] us-x-iran-permanent-peace-deal-by  (markers=316)
+[01:50:23]     fetched: 2.25 MB, 212 ms, from_cache=False
+[01:50:23]     extracted: 316 annotations in 26 ms
+[01:50:23]     total: 240 ms
+[01:50:23] [69/156] how-many-fed-rate-cuts-in-2026  (markers=305)
+[01:50:23]     fetched: 2.22 MB, 283 ms, from_cache=False
+[01:50:23]     extracted: 311 annotations in 28 ms
+[01:50:23]     total: 312 ms
+[01:50:23] [70/156] who-will-sign-uptspt-x-iran-deal-20260612002238373  (markers=296)
+[01:50:23]     fetched: 2.20 MB, 6 ms, from_cache=True
+[01:50:23]     extracted: 296 annotations in 21 ms
+[01:50:23]     total: 28 ms
+[01:50:23] [71/156] anthropic-ipo-closing-market-cap  (markers=294)
+[01:50:23]     fetched: 2.10 MB, 4 ms, from_cache=True
+[01:50:23]     extracted: 294 annotations in 18 ms
+[01:50:23]     total: 23 ms
+[01:50:23] [72/156] berlin-state-election-winner  (markers=270)
+[01:50:24]     fetched: 1.99 MB, 274 ms, from_cache=False
+[01:50:24]     extracted: 270 annotations in 18 ms
+[01:50:24]     total: 293 ms
+[01:50:24] [73/156] israel-x-hamas-ceasefire-phase-ii-by-october-31  (markers=267)
+[01:50:24]     fetched: 1.94 MB, 201 ms, from_cache=False
+[01:50:24]     extracted: 267 annotations in 22 ms
+[01:50:24]     total: 225 ms
+[01:50:24] [74/156] next-james-bond-actor-635  (markers=266)
+[01:50:24]     fetched: 1.93 MB, 265 ms, from_cache=False
+[01:50:24]     extracted: 266 annotations in 23 ms
+[01:50:24]     total: 289 ms
+[01:50:24] [75/156] next-round-of-us-iran-peace-talks-byptptpt-20260623022722982  (markers=262)
+[01:50:24]     fetched: 2.01 MB, 254 ms, from_cache=False
+[01:50:24]     extracted: 265 annotations in 22 ms
+[01:50:24]     total: 278 ms
+[01:50:24] [76/156] nobel-peace-prize-winner-2026-139  (markers=262)
+[01:50:25]     fetched: 2.15 MB, 250 ms, from_cache=False
+[01:50:25]     extracted: 262 annotations in 25 ms
+[01:50:25]     total: 276 ms
+[01:50:25] [77/156] will-microstrategy-be-delisted-from-the-msci-index-by-march-31  (markers=234)
+[01:50:25]     fetched: 1.65 MB, 255 ms, from_cache=False
+[01:50:25]     extracted: 234 annotations in 20 ms
+[01:50:25]     total: 277 ms
+[01:50:25] [78/156] virginia-republican-senate-primary-winner  (markers=231)
+[01:50:25]     fetched: 1.71 MB, 423 ms, from_cache=False
+[01:50:25]     extracted: 231 annotations in 21 ms
+[01:50:25]     total: 446 ms
+[01:50:25] [79/156] highest-grossing-movie-in-2026  (markers=229)
+[01:50:26]     fetched: 1.80 MB, 253 ms, from_cache=False
+[01:50:26]     extracted: 239 annotations in 21 ms
+[01:50:26]     total: 276 ms
+[01:50:26] [80/156] us-x-iran-effective-ceasfire-byptptpt-2-week-pause-20260715194822042  (markers=224)
+[01:50:26]     fetched: 1.82 MB, 183 ms, from_cache=False
+[01:50:26]     extracted: 236 annotations in 16 ms
+[01:50:26]     total: 200 ms
+[01:50:26] [81/156] texas-republican-senate-primary-winner  (markers=223)
+[01:50:26]     fetched: 1.69 MB, 300 ms, from_cache=False
+[01:50:26]     extracted: 223 annotations in 18 ms
+[01:50:26]     total: 320 ms
+[01:50:26] [82/156] next-french-presidential-election  (markers=221)
+[01:50:26]     fetched: 2.28 MB, 222 ms, from_cache=False
+[01:50:26]     extracted: 226 annotations in 22 ms
+[01:50:26]     total: 247 ms
+[01:50:26] [83/156] what-will-fed-rate-hit-before-2027  (markers=221)
+[01:50:27]     fetched: 1.86 MB, 260 ms, from_cache=False
+[01:50:27]     extracted: 221 annotations in 21 ms
+[01:50:27]     total: 283 ms
+[01:50:27] [84/156] maine-senate-election-winner  (markers=216)
+[01:50:27]     fetched: 1.63 MB, 225 ms, from_cache=False
+[01:50:27]     extracted: 216 annotations in 19 ms
+[01:50:27]     total: 245 ms
+[01:50:27] [85/156] extended-fdv-above-one-day-after-launch  (markers=216)
+[01:50:27]     fetched: 1.63 MB, 443 ms, from_cache=False
+[01:50:27]     extracted: 216 annotations in 19 ms
+[01:50:27]     total: 463 ms
+[01:50:27] [86/156] republican-nominee-for-florida-governor  (markers=214)
+[01:50:28]     fetched: 1.73 MB, 326 ms, from_cache=False
+[01:50:28]     extracted: 214 annotations in 21 ms
+[01:50:28]     total: 348 ms
+[01:50:28] [87/156] what-price-will-wti-hit-in-july-2026  (markers=211)
+[01:50:28]     fetched: 1.81 MB, 212 ms, from_cache=False
+[01:50:28]     extracted: 211 annotations in 17 ms
+[01:50:28]     total: 230 ms
+[01:50:28] [88/156] israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963  (markers=210)
+[01:50:28]     fetched: 1.89 MB, 270 ms, from_cache=False
+[01:50:28]     extracted: 215 annotations in 18 ms
+[01:50:28]     total: 289 ms
+[01:50:28] [89/156] macron-out-in-2025  (markers=209)
+[01:50:29]     fetched: 1.55 MB, 210 ms, from_cache=False
+[01:50:29]     extracted: 209 annotations in 19 ms
+[01:50:29]     total: 231 ms
+[01:50:29] [90/156] iran-announces-withdrawal-from-mou-negotiations-byptptpt-20260622191732319  (markers=205)
+[01:50:29]     fetched: 1.73 MB, 265 ms, from_cache=False
+[01:50:29]     extracted: 205 annotations in 19 ms
+[01:50:29]     total: 285 ms
+[01:50:29] [91/156] ipos-before-2027  (markers=198)
+[01:50:29]     fetched: 1.95 MB, 205 ms, from_cache=False
+[01:50:29]     extracted: 205 annotations in 14 ms
+[01:50:29]     total: 221 ms
+[01:50:29] [92/156] will-openais-valuation-hit-by-december-31  (markers=196)
+[01:50:29]     fetched: 1.81 MB, 285 ms, from_cache=False
+[01:50:29]     extracted: 199 annotations in 18 ms
+[01:50:29]     total: 305 ms
+[01:50:29] [93/156] where-will-trump-and-putin-meet-next-584  (markers=191)
+[01:50:30]     fetched: 1.69 MB, 226 ms, from_cache=False
+[01:50:30]     extracted: 191 annotations in 18 ms
+[01:50:30]     total: 245 ms
+[01:50:30] [94/156] peru-presidential-election-winner  (markers=187)
+[01:50:30]     fetched: 1.80 MB, 551 ms, from_cache=False
+[01:50:30]     extracted: 187 annotations in 19 ms
+[01:50:30]     total: 572 ms
+[01:50:30] [95/156] bab-el-mandeb-strait-effectively-closed-by  (markers=186)
+[01:50:30]     fetched: 1.59 MB, 239 ms, from_cache=False
+[01:50:30]     extracted: 186 annotations in 19 ms
+[01:50:30]     total: 259 ms
+[01:50:30] [96/156] what-iranian-demands-will-trump-agree-to-by-may-31  (markers=184)
+[01:50:31]     fetched: 1.55 MB, 202 ms, from_cache=False
+[01:50:31]     extracted: 184 annotations in 18 ms
+[01:50:31]     total: 222 ms
+[01:50:31] [97/156] colombia-presidential-election-1st-round-winner  (markers=184)
+[01:50:31]     fetched: 1.69 MB, 287 ms, from_cache=False
+[01:50:31]     extracted: 184 annotations in 16 ms
+[01:50:31]     total: 304 ms
+[01:50:31] [98/156] maine-democratic-senate-primary-winner  (markers=182)
+[01:50:31]     fetched: 1.54 MB, 275 ms, from_cache=False
+[01:50:31]     extracted: 182 annotations in 16 ms
+[01:50:31]     total: 293 ms
+[01:50:31] [99/156] discord-ipo-closing-market-cap  (markers=178)
+[01:50:31]     fetched: 1.53 MB, 37 ms, from_cache=True
+[01:50:31]     extracted: 178 annotations in 12 ms
+[01:50:31]     total: 49 ms
+[01:50:31] [100/156] michigan-democratic-senate-primary-winner  (markers=172)
+[01:50:32]     fetched: 1.48 MB, 159 ms, from_cache=False
+[01:50:32]     extracted: 176 annotations in 15 ms
+[01:50:32]     total: 175 ms
+[01:50:32] [101/156] variational-fdv-above-one-day-after-launch  (markers=164)
+[01:50:32]     fetched: 1.50 MB, 260 ms, from_cache=False
+[01:50:32]     extracted: 166 annotations in 18 ms
+[01:50:32]     total: 279 ms
+[01:50:32] [102/156] what-price-will-hyperliquid-hit-before-2027  (markers=164)
+[01:50:32]     fetched: 1.53 MB, 233 ms, from_cache=False
+[01:50:32]     extracted: 164 annotations in 14 ms
+[01:50:32]     total: 248 ms
+[01:50:32] [103/156] us-announces-new-iran-agreementceasefire-extension-by  (markers=161)
+[01:50:32]     fetched: 1.70 MB, 235 ms, from_cache=False
+[01:50:32]     extracted: 161 annotations in 17 ms
+[01:50:32]     total: 254 ms
+[01:50:32] [104/156] french-election-called-by  (markers=151)
+[01:50:33]     fetched: 1.38 MB, 221 ms, from_cache=False
+[01:50:33]     extracted: 151 annotations in 17 ms
+[01:50:33]     total: 239 ms
+[01:50:33] [105/156] which-country-will-join-abraham-accords-before-2027  (markers=137)
+[01:50:33]     fetched: 1.39 MB, 211 ms, from_cache=False
+[01:50:33]     extracted: 139 annotations in 15 ms
+[01:50:33]     total: 228 ms
+[01:50:33] [106/156] iran-charges-hormuz-fees-byptptpt-20260625175035466  (markers=121)
+[01:50:33]     fetched: 1.31 MB, 274 ms, from_cache=False
+[01:50:33]     extracted: 129 annotations in 12 ms
+[01:50:33]     total: 288 ms
+[01:50:33] [107/156] iran-closes-its-airspace-by  (markers=120)
+[01:50:33]     fetched: 1.42 MB, 202 ms, from_cache=False
+[01:50:33]     extracted: 120 annotations in 10 ms
+[01:50:33]     total: 212 ms
+[01:50:33] [108/156] gpt-5pt6-released-by  (markers=116)
+[01:50:34]     fetched: 1.36 MB, 304 ms, from_cache=False
+[01:50:34]     extracted: 116 annotations in 11 ms
+[01:50:34]     total: 317 ms
+[01:50:34] [109/156] ky-04-republican-primary-winner  (markers=111)
+[01:50:34]     fetched: 1.16 MB, 165 ms, from_cache=False
+[01:50:34]     extracted: 111 annotations in 11 ms
+[01:50:34]     total: 178 ms
+[01:50:34] [110/156] spacex-ipo-closing-market-cap-above  (markers=95)
+[01:50:34]     fetched: 1.20 MB, 225 ms, from_cache=False
+[01:50:34]     extracted: 95 annotations in 12 ms
+[01:50:34]     total: 238 ms
+[01:50:34] [111/156] what-price-will-bitcoin-hit-before-2027  (markers=89)
+[01:50:34]     fetched: 1.43 MB, 226 ms, from_cache=False
+[01:50:34]     extracted: 89 annotations in 10 ms
+[01:50:34]     total: 238 ms
+[01:50:34] [112/156] will-hamaz-disarm-by-december-31  (markers=89)
+[01:50:34]     fetched: 1.09 MB, 199 ms, from_cache=False
+[01:50:34]     extracted: 89 annotations in 11 ms
+[01:50:34]     total: 211 ms
+[01:50:34] [113/156] next-uk-prime-minister-in-2026-122  (markers=81)
+[01:50:35]     fetched: 1.27 MB, 258 ms, from_cache=False
+[01:50:35]     extracted: 81 annotations in 10 ms
+[01:50:35]     total: 270 ms
+[01:50:35] [114/156] what-price-will-ethereum-hit-before-2027  (markers=80)
+[01:50:35]     fetched: 1.24 MB, 212 ms, from_cache=False
+[01:50:35]     extracted: 80 annotations in 10 ms
+[01:50:35]     total: 223 ms
+[01:50:35] [115/156] clacton-by-election-winner-20260707143521303  (markers=79)
+[01:50:35]     fetched: 1.13 MB, 196 ms, from_cache=False
+[01:50:35]     extracted: 79 annotations in 9 ms
+[01:50:35]     total: 205 ms
+[01:50:35] [116/156] strait-of-hormuz-traffic-returns-to-normal-by-august-31-20260702154212320  (markers=74)
+[01:50:35]     fetched: 1.01 MB, 160 ms, from_cache=False
+[01:50:35]     extracted: 74 annotations in 9 ms
+[01:50:35]     total: 171 ms
+[01:50:35] [117/156] will-trump-visit-china-by  (markers=70)
+[01:50:36]     fetched: 1.11 MB, 243 ms, from_cache=False
+[01:50:36]     extracted: 70 annotations in 10 ms
+[01:50:36]     total: 254 ms
+[01:50:36] [118/156] trump-announces-us-x-iran-ceasefire-over-byptptpt-20260607232555290  (markers=70)
+[01:50:36]     fetched: 1.00 MB, 270 ms, from_cache=False
+[01:50:36]     extracted: 70 annotations in 6 ms
+[01:50:36]     total: 277 ms
+[01:50:36] [119/156] claude-fable-5-restored-for-us-customers-by-20260613193753196  (markers=68)
+[01:50:36]     fetched: 1.17 MB, 219 ms, from_cache=False
+[01:50:36]     extracted: 68 annotations in 7 ms
+[01:50:36]     total: 227 ms
+[01:50:36] [120/156] 2026-seoul-mayoral-election-winner  (markers=66)
+[01:50:36]     fetched: 1.21 MB, 330 ms, from_cache=False
+[01:50:36]     extracted: 66 annotations in 10 ms
+[01:50:36]     total: 341 ms
+[01:50:36] [121/156] where-will-the-next-us-iran-diplomatic-meeting-happen-455  (markers=63)
+[01:50:37]     fetched: 1.17 MB, 529 ms, from_cache=False
+[01:50:37]     extracted: 63 annotations in 8 ms
+[01:50:37]     total: 537 ms
+[01:50:37] [122/156] us-announces-halt-in-iran-offensive-operations-byptptpt-20260718015003096  (markers=63)
+[01:50:37]     fetched: 1.03 MB, 276 ms, from_cache=False
+[01:50:37]     extracted: 63 annotations in 7 ms
+[01:50:37]     total: 284 ms
+[01:50:37] [123/156] claude-5-released-by  (markers=61)
+[01:50:37]     fetched: 1.00 MB, 217 ms, from_cache=False
+[01:50:37]     extracted: 61 annotations in 8 ms
+[01:50:37]     total: 226 ms
+[01:50:37] [124/156] who-will-attend-taylor-swift-and-travis-kelces-wedding  (markers=60)
+[01:50:38]     fetched: 0.96 MB, 160 ms, from_cache=False
+[01:50:38]     extracted: 60 annotations in 6 ms
+[01:50:38]     total: 166 ms
+[01:50:38] [125/156] who-will-advance-from-the-california-governor-primary  (markers=58)
+[01:50:38]     fetched: 1.23 MB, 5 ms, from_cache=True
+[01:50:38]     extracted: 58 annotations in 5 ms
+[01:50:38]     total: 11 ms
+[01:50:38] [126/156] israel-x-hamas-ceasefire-cancelled-by-october-31  (markers=52)
+[01:50:38]     fetched: 0.91 MB, 312 ms, from_cache=False
+[01:50:38]     extracted: 52 annotations in 8 ms
+[01:50:38]     total: 320 ms
+[01:50:38] [127/156] iran-ceasefire-continues-through  (markers=43)
+[01:50:38]     fetched: 0.99 MB, 181 ms, from_cache=False
+[01:50:38]     extracted: 43 annotations in 5 ms
+[01:50:38]     total: 186 ms
+[01:50:38] [128/156] us-announces-blockade-on-iran-byptptpt-20260622191049039  (markers=42)
+[01:50:38]     fetched: 0.88 MB, 3 ms, from_cache=True
+[01:50:38]     extracted: 42 annotations in 4 ms
+[01:50:38]     total: 7 ms
+[01:50:38] [129/156] will-trump-visit-china-on  (markers=41)
+[01:50:38]     fetched: 1.18 MB, 223 ms, from_cache=False
+[01:50:38]     extracted: 41 annotations in 5 ms
+[01:50:38]     total: 228 ms
+[01:50:38] [130/156] how-many-7pt0-or-above-earthquakes-by-june-30  (markers=39)
+[01:50:38]     fetched: 0.79 MB, 5 ms, from_cache=True
+[01:50:38]     extracted: 39 annotations in 3 ms
+[01:50:38]     total: 9 ms
+[01:50:38] [131/156] kash-patel-out-by  (markers=38)
+[01:50:39]     fetched: 0.90 MB, 156 ms, from_cache=False
+[01:50:39]     extracted: 38 annotations in 6 ms
+[01:50:39]     total: 163 ms
+[01:50:39] [132/156] fed-decision-in-september-762  (markers=35)
+[01:50:39]     fetched: 0.88 MB, 240 ms, from_cache=False
+[01:50:39]     extracted: 36 annotations in 6 ms
+[01:50:39]     total: 246 ms
+[01:50:39] [133/156] ohio-governor-republican-primary-winner  (markers=31)
+[01:50:39]     fetched: 0.82 MB, 19 ms, from_cache=True
+[01:50:39]     extracted: 31 annotations in 4 ms
+[01:50:39]     total: 23 ms
+[01:50:39] [134/156] largest-company-end-of-july-20260624192302727  (markers=30)
+[01:50:39]     fetched: 0.87 MB, 144 ms, from_cache=False
+[01:50:39]     extracted: 30 annotations in 4 ms
+[01:50:39]     total: 149 ms
+[01:50:39] [135/156] what-will-the-us-agree-to  (markers=27)
+[01:50:39]     fetched: 0.87 MB, 216 ms, from_cache=False
+[01:50:39]     extracted: 27 annotations in 5 ms
+[01:50:39]     total: 222 ms
+[01:50:39] [136/156] west-bengal-legislative-assembly-election-winner  (markers=26)
+[01:50:40]     fetched: 0.88 MB, 304 ms, from_cache=False
+[01:50:40]     extracted: 26 annotations in 6 ms
+[01:50:40]     total: 310 ms
+[01:50:40] [137/156] claude-mythos-released-by  (markers=26)
+[01:50:40]     fetched: 0.84 MB, 236 ms, from_cache=False
+[01:50:40]     extracted: 26 annotations in 5 ms
+[01:50:40]     total: 241 ms
+[01:50:40] [138/156] us-iran-deal-text-released-byptptpt-20260615224044572  (markers=25)
+[01:50:40]     fetched: 0.81 MB, 286 ms, from_cache=False
+[01:50:40]     extracted: 25 annotations in 2 ms
+[01:50:40]     total: 289 ms
+[01:50:40] [139/156] epstein-client-list-released-in-2025-372  (markers=21)
+[01:50:40]     fetched: 0.74 MB, 161 ms, from_cache=False
+[01:50:40]     extracted: 21 annotations in 3 ms
+[01:50:40]     total: 165 ms
+[01:50:40] [140/156] will-grahm-platner-drop-out-before-the-midterms-20260608200746523  (markers=21)
+[01:50:40]     fetched: 0.78 MB, 6 ms, from_cache=True
+[01:50:40]     extracted: 21 annotations in 3 ms
+[01:50:40]     total: 9 ms
+[01:50:40] [141/156] alaska-governor-election-winner  (markers=20)
+[01:50:41]     fetched: 1.00 MB, 427 ms, from_cache=False
+[01:50:41]     extracted: 20 annotations in 3 ms
+[01:50:41]     total: 431 ms
+[01:50:41] [142/156] what-price-will-wti-hit-in-august-2026  (markers=19)
+[01:50:41]     fetched: 1.04 MB, 143 ms, from_cache=False
+[01:50:41]     extracted: 26 annotations in 5 ms
+[01:50:41]     total: 148 ms
+[01:50:41] [143/156] next-prime-minister-of-hungary  (markers=16)
+[01:50:41]     fetched: 0.78 MB, 287 ms, from_cache=False
+[01:50:41]     extracted: 16 annotations in 3 ms
+[01:50:41]     total: 291 ms
+[01:50:41] [144/156] will-russia-invade-a-nato-country-in-2025  (markers=16)
+[01:50:41]     fetched: 0.66 MB, 164 ms, from_cache=False
+[01:50:41]     extracted: 16 annotations in 3 ms
+[01:50:41]     total: 168 ms
+[01:50:41] [145/156] fed-decision-in-april  (markers=15)
+[01:50:41]     fetched: 0.72 MB, 169 ms, from_cache=False
+[01:50:41]     extracted: 15 annotations in 3 ms
+[01:50:41]     total: 173 ms
+[01:50:41] [146/156] israel-and-indonesia-normalize-relations-by  (markers=14)
+[01:50:42]     fetched: 0.68 MB, 157 ms, from_cache=False
+[01:50:42]     extracted: 14 annotations in 3 ms
+[01:50:42]     total: 161 ms
+[01:50:42] [147/156] makerfield-by-election-winner  (markers=13)
+[01:50:42]     fetched: 0.73 MB, 457 ms, from_cache=False
+[01:50:42]     extracted: 13 annotations in 2 ms
+[01:50:42]     total: 459 ms
+[01:50:42] [148/156] chungcheongnam-province-governor-election-winner  (markers=12)
+[01:50:42]     fetched: 0.73 MB, 4 ms, from_cache=True
+[01:50:42]     extracted: 12 annotations in 2 ms
+[01:50:42]     total: 6 ms
+[01:50:42] [149/156] incheon-mayoral-election-winner  (markers=11)
+[01:50:42]     fetched: 0.77 MB, 3 ms, from_cache=True
+[01:50:42]     extracted: 11 annotations in 1 ms
+[01:50:42]     total: 5 ms
+[01:50:42] [150/156] will-hezbollah-disarm-by-march-31  (markers=8)
+[01:50:42]     fetched: 0.68 MB, 165 ms, from_cache=False
+[01:50:42]     extracted: 8 annotations in 1 ms
+[01:50:42]     total: 167 ms
+[01:50:42] [151/156] next-uk-chancellor-of-the-exchequer-in-2026-20260621005319178  (markers=8)
+[01:50:42]     fetched: 0.79 MB, 17 ms, from_cache=True
+[01:50:42]     extracted: 8 annotations in 1 ms
+[01:50:42]     total: 18 ms
+[01:50:42] [152/156] james-comey-arrested-by-may-15  (markers=6)
+[01:50:42]     fetched: 0.66 MB, 3 ms, from_cache=True
+[01:50:42]     extracted: 6 annotations in 1 ms
+[01:50:42]     total: 5 ms
+[01:50:42] [153/156] next-claude-opus-released-byptptpt-20260701204710232  (markers=4)
+[01:50:42]     fetched: 0.73 MB, 22 ms, from_cache=True
+[01:50:42]     extracted: 4 annotations in 1 ms
+[01:50:42]     total: 23 ms
+[01:50:42] [154/156] spacex-ipo-closing-market-cap  (markers=4)
+[01:50:42]     fetched: 0.70 MB, 204 ms, from_cache=False
+[01:50:42]     extracted: 4 annotations in 1 ms
+[01:50:42]     total: 205 ms
+[01:50:42] [155/156] 2026-gyeonggi-province-gubernatorial-election-winner  (markers=3)
+[01:50:43]     fetched: 0.77 MB, 205 ms, from_cache=False
+[01:50:43]     extracted: 3 annotations in 1 ms
+[01:50:43]     total: 207 ms
+[01:50:43] [156/156] who-will-be-confirmed-as-fed-chair  (markers=3)
+[01:50:43]     fetched: 0.70 MB, 312 ms, from_cache=False
+[01:50:43]     extracted: 3 annotations in 1 ms
+[01:50:43]     total: 314 ms
+[01:50:44] Wrote 67,470 annotation rows to /Users/mehtad/Development/polymarket_analysis_public/market_context_check/annotations_new.csv
+[01:50:44] Markets covered: 156
+[09:21:40] === extract_annotations run ===
+[09:21:40] args: {'test': 0, 'max_anns': None, 'min_anns': 1, 'out': '/Users/mehtad/Development/polymarket_analysis_public/market_context_check/annotations_new.csv', 'logfile': '/Users/mehtad/Development/polymarket_analysis_public/market_context_check/extract.log'}
+[09:21:40] candidate slugs (min=1, max=None): 156
+[09:21:40] [1/156] which-party-will-win-the-house-in-2026  (markers=2568)
+[09:21:40]     fetched: 12.71 MB, 16 ms, from_cache=True
+[09:21:40]     extracted: 2581 annotations in 182 ms
+[09:21:40]     total: 213 ms
+[09:21:40] [2/156] will-russia-capture-kostyantynivka-by  (markers=2429)
+[09:21:40]     fetched: 12.48 MB, 24 ms, from_cache=True
+[09:21:40]     extracted: 2442 annotations in 155 ms
+[09:21:40]     total: 186 ms
+[09:21:40] [3/156] will-us-withdraw-from-nato-before-2027  (markers=2253)
+[09:21:40]     fetched: 11.33 MB, 21 ms, from_cache=True
+[09:21:40]     extracted: 2259 annotations in 138 ms
+[09:21:40]     total: 167 ms
+[09:21:40] [4/156] netanyahu-out-before-2027  (markers=2206)
+[09:21:40]     fetched: 11.15 MB, 127 ms, from_cache=True
+[09:21:40]     extracted: 2206 annotations in 132 ms
+[09:21:40]     total: 266 ms
+[09:21:40] [5/156] which-party-will-win-the-senate-in-2026  (markers=2199)
+[09:21:41]     fetched: 10.85 MB, 170 ms, from_cache=True
+[09:21:41]     extracted: 2208 annotations in 153 ms
+[09:21:41]     total: 331 ms
+[09:21:41] [6/156] ukraine-recognizes-russian-sovereignty-over-ukrainian-territory-in-2025  (markers=1983)
+[09:21:41]     fetched: 10.08 MB, 113 ms, from_cache=True
+[09:21:41]     extracted: 1983 annotations in 127 ms
+[09:21:41]     total: 246 ms
+[09:21:41] [7/156] openai-ipo-by  (markers=1673)
+[09:21:41]     fetched: 8.55 MB, 85 ms, from_cache=True
+[09:21:41]     extracted: 1676 annotations in 102 ms
+[09:21:41]     total: 194 ms
+[09:21:41] [8/156] ukraine-election-called-in-2025  (markers=1574)
+[09:21:41]     fetched: 8.01 MB, 60 ms, from_cache=True
+[09:21:41]     extracted: 1580 annotations in 97 ms
+[09:21:41]     total: 162 ms
+[09:21:41] [9/156] scotus-accepts-sports-event-contract-case-by-july-31-2026  (markers=1533)
+[09:21:41]     fetched: 7.93 MB, 51 ms, from_cache=True
+[09:21:42]     extracted: 1535 annotations in 95 ms
+[09:21:42]     total: 152 ms
+[09:21:42] [10/156] will-any-country-leave-nato-in-2025  (markers=1521)
+[09:21:42]     fetched: 7.88 MB, 42 ms, from_cache=True
+[09:21:42]     extracted: 1521 annotations in 93 ms
+[09:21:42]     total: 140 ms
+[09:21:42] [11/156] will-the-us-confirm-that-aliens-exist-before-2027  (markers=1370)
+[09:21:42]     fetched: 7.09 MB, 55 ms, from_cache=True
+[09:21:42]     extracted: 1378 annotations in 98 ms
+[09:21:42]     total: 158 ms
+[09:21:42] [12/156] balance-of-power-2026-midterms  (markers=1336)
+[09:21:42]     fetched: 6.71 MB, 10 ms, from_cache=True
+[09:21:42]     extracted: 1351 annotations in 78 ms
+[09:21:42]     total: 91 ms
+[09:21:42] [13/156] will-base-launch-a-token-in-2025-341  (markers=1328)
+[09:21:42]     fetched: 6.92 MB, 31 ms, from_cache=True
+[09:21:42]     extracted: 1334 annotations in 89 ms
+[09:21:42]     total: 127 ms
+[09:21:42] [14/156] will-russia-capture-lyman-in-2025  (markers=1323)
+[09:21:42]     fetched: 6.99 MB, 93 ms, from_cache=True
+[09:21:42]     extracted: 1328 annotations in 84 ms
+[09:21:42]     total: 184 ms
+[09:21:42] [15/156] which-party-wins-2028-us-presidential-election  (markers=1220)
+[09:21:42]     fetched: 6.02 MB, 125 ms, from_cache=True
+[09:21:42]     extracted: 1227 annotations in 69 ms
+[09:21:42]     total: 199 ms
+[09:21:42] [16/156] ukraine-election-held-in-2025  (markers=1163)
+[09:21:42]     fetched: 6.16 MB, 37 ms, from_cache=True
+[09:21:43]     extracted: 1163 annotations in 72 ms
+[09:21:43]     total: 113 ms
+[09:21:43] [17/156] brazil-presidential-election  (markers=1070)
+[09:21:43]     fetched: 5.94 MB, 29 ms, from_cache=True
+[09:21:43]     extracted: 1084 annotations in 65 ms
+[09:21:43]     total: 98 ms
+[09:21:43] [18/156] presidential-election-winner-2028  (markers=940)
+[09:21:43]     fetched: 5.62 MB, 106 ms, from_cache=True
+[09:21:43]     extracted: 954 annotations in 54 ms
+[09:21:43]     total: 163 ms
+[09:21:43] [19/156] starmer-out-in-2025  (markers=917)
+[09:21:43]     fetched: 5.13 MB, 55 ms, from_cache=True
+[09:21:43]     extracted: 917 annotations in 55 ms
+[09:21:43]     total: 113 ms
+[09:21:43] [20/156] russia-nuclear-test-by  (markers=903)
+[09:21:43]     fetched: 4.93 MB, 36 ms, from_cache=True
+[09:21:43]     extracted: 904 annotations in 60 ms
+[09:21:43]     total: 99 ms
+[09:21:43] [21/156] israel-and-syria-normalize-relations-in-2025  (markers=894)
+[09:21:43]     fetched: 4.85 MB, 25 ms, from_cache=True
+[09:21:43]     extracted: 894 annotations in 54 ms
+[09:21:43]     total: 82 ms
+[09:21:43] [22/156] democratic-presidential-nominee-2028  (markers=880)
+[09:21:43]     fetched: 5.38 MB, 48 ms, from_cache=True
+[09:21:43]     extracted: 894 annotations in 52 ms
+[09:21:43]     total: 103 ms
+[09:21:43] [23/156] putin-out-before-2027  (markers=838)
+[09:21:43]     fetched: 4.47 MB, 24 ms, from_cache=True
+[09:21:43]     extracted: 858 annotations in 52 ms
+[09:21:43]     total: 78 ms
+[09:21:43] [24/156] where-will-zelenskyy-and-putin-meet-next  (markers=812)
+[09:21:43]     fetched: 4.63 MB, 24 ms, from_cache=True
+[09:21:43]     extracted: 817 annotations in 50 ms
+[09:21:43]     total: 77 ms
+[09:21:43] [25/156] will-ukraine-recapture-crimean-territory-by-june-30-2026  (markers=798)
+[09:21:43]     fetched: 4.36 MB, 31 ms, from_cache=True
+[09:21:43]     extracted: 798 annotations in 50 ms
+[09:21:43]     total: 84 ms
+[09:21:43] [26/156] when-will-bitcoin-hit-150k  (markers=794)
+[09:21:43]     fetched: 4.32 MB, 22 ms, from_cache=True
+[09:21:44]     extracted: 794 annotations in 50 ms
+[09:21:44]     total: 74 ms
+[09:21:44] [27/156] nato-x-russia-military-clash-in-2025  (markers=790)
+[09:21:44]     fetched: 4.39 MB, 46 ms, from_cache=True
+[09:21:44]     extracted: 792 annotations in 52 ms
+[09:21:44]     total: 101 ms
+[09:21:44] [28/156] israeli-parliament-dissolved-by-october-31  (markers=739)
+[09:21:44]     fetched: 4.22 MB, 9 ms, from_cache=True
+[09:21:44]     extracted: 739 annotations in 48 ms
+[09:21:44]     total: 59 ms
+[09:21:44] [29/156] 2026-south-korean-local-elections-party-winner  (markers=739)
+[09:21:44]     fetched: 4.24 MB, 7 ms, from_cache=True
+[09:21:44]     extracted: 739 annotations in 47 ms
+[09:21:44]     total: 57 ms
+[09:21:44] [30/156] republican-presidential-nominee-2028  (markers=701)
+[09:21:44]     fetched: 4.37 MB, 2 ms, from_cache=True
+[09:21:44]     extracted: 713 annotations in 42 ms
+[09:21:44]     total: 46 ms
+[09:21:44] [31/156] los-angeles-mayoral-election-117  (markers=701)
+[09:21:44]     fetched: 3.91 MB, 44 ms, from_cache=True
+[09:21:44]     extracted: 718 annotations in 43 ms
+[09:21:44]     total: 89 ms
+[09:21:44] [32/156] richest-person-on-december-31-2026  (markers=681)
+[09:21:44]     fetched: 3.76 MB, 38 ms, from_cache=True
+[09:21:44]     extracted: 689 annotations in 54 ms
+[09:21:44]     total: 95 ms
+[09:21:44] [33/156] megaeth-airdrop-by  (markers=673)
+[09:21:44]     fetched: 3.70 MB, 21 ms, from_cache=True
+[09:21:44]     extracted: 673 annotations in 40 ms
+[09:21:44]     total: 63 ms
+[09:21:44] [34/156] miguel-daz-canel-out-as-leader-of-cuba-by-june-30  (markers=594)
+[09:21:44]     fetched: 3.38 MB, 65 ms, from_cache=True
+[09:21:44]     extracted: 594 annotations in 35 ms
+[09:21:44]     total: 102 ms
+[09:21:44] [35/156] us-x-russia-military-clash-by  (markers=594)
+[09:21:44]     fetched: 3.41 MB, 44 ms, from_cache=True
+[09:21:44]     extracted: 594 annotations in 37 ms
+[09:21:44]     total: 83 ms
+[09:21:44] [36/156] will-metamask-launch-a-token-in-2025  (markers=586)
+[09:21:44]     fetched: 3.30 MB, 4 ms, from_cache=True
+[09:21:44]     extracted: 597 annotations in 35 ms
+[09:21:44]     total: 41 ms
+[09:21:44] [37/156] who-will-be-the-next-prime-minister-of-israel-after-the-next-election  (markers=573)
+[09:21:44]     fetched: 3.51 MB, 58 ms, from_cache=True
+[09:21:44]     extracted: 588 annotations in 53 ms
+[09:21:44]     total: 115 ms
+[09:21:44] [38/156] kharg-island-no-longer-under-iranian-control-by-march-31  (markers=563)
+[09:21:44]     fetched: 3.39 MB, 5 ms, from_cache=True
+[09:21:44]     extracted: 563 annotations in 42 ms
+[09:21:44]     total: 49 ms
+[09:21:44] [39/156] largest-company-end-of-december-2026  (markers=545)
+[09:21:44]     fetched: 3.07 MB, 35 ms, from_cache=True
+[09:21:44]     extracted: 549 annotations in 40 ms
+[09:21:44]     total: 79 ms
+[09:21:44] [40/156] colombia-presidential-election  (markers=538)
+[09:21:45]     fetched: 3.33 MB, 65 ms, from_cache=True
+[09:21:45]     extracted: 538 annotations in 50 ms
+[09:21:45]     total: 118 ms
+[09:21:45] [41/156] which-movie-has-biggest-opening-weekend-in-2026  (markers=522)
+[09:21:45]     fetched: 3.14 MB, 2 ms, from_cache=True
+[09:21:45]     extracted: 522 annotations in 33 ms
+[09:21:45]     total: 37 ms
+[09:21:45] [42/156] who-will-leave-trump-administration-before-2027  (markers=504)
+[09:21:45]     fetched: 3.19 MB, 31 ms, from_cache=True
+[09:21:45]     extracted: 504 annotations in 38 ms
+[09:21:45]     total: 71 ms
+[09:21:45] [43/156] openai-ipo-closing-market-cap  (markers=494)
+[09:21:45]     fetched: 3.00 MB, 23 ms, from_cache=True
+[09:21:45]     extracted: 497 annotations in 33 ms
+[09:21:45]     total: 58 ms
+[09:21:45] [44/156] california-governor-election-2026  (markers=476)
+[09:21:45]     fetched: 2.99 MB, 10 ms, from_cache=True
+[09:21:45]     extracted: 480 annotations in 29 ms
+[09:21:45]     total: 40 ms
+[09:21:45] [45/156] israel-withdraws-from-lebanon-by  (markers=472)
+[09:21:45]     fetched: 2.88 MB, 40 ms, from_cache=True
+[09:21:45]     extracted: 476 annotations in 31 ms
+[09:21:45]     total: 72 ms
+[09:21:45] [46/156] harvey-weinstein-prison-time  (markers=457)
+[09:21:45]     fetched: 2.75 MB, 31 ms, from_cache=True
+[09:21:45]     extracted: 457 annotations in 31 ms
+[09:21:45]     total: 63 ms
+[09:21:45] [47/156] standx-fdv-above-one-day-after-launch  (markers=446)
+[09:21:45]     fetched: 2.74 MB, 2 ms, from_cache=True
+[09:21:45]     extracted: 449 annotations in 32 ms
+[09:21:45]     total: 36 ms
+[09:21:45] [48/156] fed-decision-in-july-181  (markers=439)
+[09:21:45]     fetched: 2.73 MB, 19 ms, from_cache=True
+[09:21:45]     extracted: 439 annotations in 31 ms
+[09:21:45]     total: 53 ms
+[09:21:45] [49/156] what-will-happen-before-gta-vi  (markers=438)
+[09:21:45]     fetched: 2.67 MB, 7 ms, from_cache=True
+[09:21:45]     extracted: 438 annotations in 31 ms
+[09:21:45]     total: 40 ms
+[09:21:45] [50/156] will-russia-capture-all-of-kupiansk-by  (markers=434)
+[09:21:45]     fetched: 2.68 MB, 40 ms, from_cache=True
+[09:21:45]     extracted: 434 annotations in 29 ms
+[09:21:45]     total: 71 ms
+[09:21:45] [51/156] sweden-parliamentary-election-winner  (markers=430)
+[09:21:45]     fetched: 2.74 MB, 8 ms, from_cache=True
+[09:21:45]     extracted: 430 annotations in 33 ms
+[09:21:45]     total: 43 ms
+[09:21:45] [52/156] where-will-2026-rank-among-the-hottest-years-on-record  (markers=421)
+[09:21:45]     fetched: 2.63 MB, 23 ms, from_cache=True
+[09:21:45]     extracted: 426 annotations in 27 ms
+[09:21:45]     total: 51 ms
+[09:21:45] [53/156] metamask-fdv-above-one-day-after-launch  (markers=419)
+[09:21:45]     fetched: 2.47 MB, 10 ms, from_cache=True
+[09:21:45]     extracted: 419 annotations in 26 ms
+[09:21:45]     total: 38 ms
+[09:21:45] [54/156] how-many-different-countries-will-israel-strike-in-2026  (markers=401)
+[09:21:45]     fetched: 2.63 MB, 43 ms, from_cache=True
+[09:21:45]     extracted: 401 annotations in 78 ms
+[09:21:45]     total: 124 ms
+[09:21:45] [55/156] trump-announces-us-blockade-of-hormuz-lifted-by  (markers=399)
+[09:21:45]     fetched: 2.68 MB, 4 ms, from_cache=True
+[09:21:46]     extracted: 399 annotations in 104 ms
+[09:21:46]     total: 117 ms
+[09:21:46] [56/156] iran-agrees-to-surrender-enriched-uranium-stockpile-by  (markers=393)
+[09:21:46]     fetched: 2.58 MB, 37 ms, from_cache=True
+[09:21:46]     extracted: 393 annotations in 44 ms
+[09:21:46]     total: 84 ms
+[09:21:46] [57/156] opensea-fdv-above-one-day-after-launch  (markers=385)
+[09:21:46]     fetched: 2.40 MB, 4 ms, from_cache=True
+[09:21:46]     extracted: 388 annotations in 39 ms
+[09:21:46]     total: 45 ms
+[09:21:46] [58/156] us-iran-final-nuclear-deal-by-20260621201254412  (markers=374)
+[09:21:46]     fetched: 2.57 MB, 25 ms, from_cache=True
+[09:21:46]     extracted: 389 annotations in 48 ms
+[09:21:46]     total: 75 ms
+[09:21:46] [59/156] who-will-acquire-tiktok-559  (markers=371)
+[09:21:46]     fetched: 2.32 MB, 65 ms, from_cache=True
+[09:21:46]     extracted: 371 annotations in 27 ms
+[09:21:46]     total: 94 ms
+[09:21:46] [60/156] how-high-will-inflation-get-in-2026  (markers=356)
+[09:21:46]     fetched: 2.33 MB, 4 ms, from_cache=True
+[09:21:46]     extracted: 362 annotations in 29 ms
+[09:21:46]     total: 36 ms
+[09:21:46] [61/156] how-many-different-countries-will-the-us-strike-in-2026  (markers=356)
+[09:21:46]     fetched: 2.45 MB, 16 ms, from_cache=True
+[09:21:46]     extracted: 358 annotations in 33 ms
+[09:21:46]     total: 51 ms
+[09:21:46] [62/156] who-will-close-warner-bros-acquisition  (markers=353)
+[09:21:46]     fetched: 2.27 MB, 76 ms, from_cache=True
+[09:21:46]     extracted: 354 annotations in 42 ms
+[09:21:46]     total: 164 ms
+[09:21:46] [63/156] what-iranian-demands-will-trump-agree-to-by-june-30  (markers=352)
+[09:21:46]     fetched: 2.43 MB, 2 ms, from_cache=True
+[09:21:46]     extracted: 352 annotations in 24 ms
+[09:21:46]     total: 28 ms
+[09:21:46] [64/156] us-x-iran-diplomatic-meeting-by-329  (markers=350)
+[09:21:46]     fetched: 2.58 MB, 8 ms, from_cache=True
+[09:21:46]     extracted: 350 annotations in 22 ms
+[09:21:46]     total: 32 ms
+[09:21:46] [65/156] will-anthropics-valuation-hit-by-december-31  (markers=342)
+[09:21:46]     fetched: 2.49 MB, 24 ms, from_cache=True
+[09:21:46]     extracted: 344 annotations in 22 ms
+[09:21:46]     total: 47 ms
+[09:21:46] [66/156] largest-company-end-of-june-712  (markers=334)
+[09:21:46]     fetched: 2.16 MB, 2 ms, from_cache=True
+[09:21:46]     extracted: 334 annotations in 19 ms
+[09:21:46]     total: 23 ms
+[09:21:46] [67/156] fed-decision-in-june-825  (markers=317)
+[09:21:46]     fetched: 2.21 MB, 26 ms, from_cache=True
+[09:21:46]     extracted: 317 annotations in 21 ms
+[09:21:46]     total: 47 ms
+[09:21:46] [68/156] us-x-iran-permanent-peace-deal-by  (markers=316)
+[09:21:46]     fetched: 2.25 MB, 6 ms, from_cache=True
+[09:21:46]     extracted: 316 annotations in 20 ms
+[09:21:46]     total: 27 ms
+[09:21:46] [69/156] how-many-fed-rate-cuts-in-2026  (markers=305)
+[09:21:46]     fetched: 2.22 MB, 52 ms, from_cache=True
+[09:21:46]     extracted: 311 annotations in 22 ms
+[09:21:46]     total: 77 ms
+[09:21:46] [70/156] who-will-sign-uptspt-x-iran-deal-20260612002238373  (markers=296)
+[09:21:46]     fetched: 2.20 MB, 6 ms, from_cache=True
+[09:21:46]     extracted: 296 annotations in 22 ms
+[09:21:46]     total: 30 ms
+[09:21:46] [71/156] anthropic-ipo-closing-market-cap  (markers=294)
+[09:21:46]     fetched: 2.10 MB, 5 ms, from_cache=True
+[09:21:46]     extracted: 294 annotations in 20 ms
+[09:21:46]     total: 27 ms
+[09:21:46] [72/156] berlin-state-election-winner  (markers=270)
+[09:21:46]     fetched: 1.99 MB, 10 ms, from_cache=True
+[09:21:46]     extracted: 270 annotations in 19 ms
+[09:21:46]     total: 31 ms
+[09:21:46] [73/156] israel-x-hamas-ceasefire-phase-ii-by-october-31  (markers=267)
+[09:21:46]     fetched: 1.94 MB, 17 ms, from_cache=True
+[09:21:46]     extracted: 267 annotations in 22 ms
+[09:21:46]     total: 41 ms
+[09:21:46] [74/156] next-james-bond-actor-635  (markers=266)
+[09:21:47]     fetched: 1.93 MB, 24 ms, from_cache=True
+[09:21:47]     extracted: 266 annotations in 27 ms
+[09:21:47]     total: 52 ms
+[09:21:47] [75/156] next-round-of-us-iran-peace-talks-byptptpt-20260623022722982  (markers=262)
+[09:21:47]     fetched: 2.01 MB, 7 ms, from_cache=True
+[09:21:47]     extracted: 265 annotations in 38 ms
+[09:21:47]     total: 47 ms
+[09:21:47] [76/156] nobel-peace-prize-winner-2026-139  (markers=262)
+[09:21:47]     fetched: 2.15 MB, 17 ms, from_cache=True
+[09:21:47]     extracted: 262 annotations in 35 ms
+[09:21:47]     total: 54 ms
+[09:21:47] [77/156] will-microstrategy-be-delisted-from-the-msci-index-by-march-31  (markers=234)
+[09:21:47]     fetched: 1.65 MB, 3 ms, from_cache=True
+[09:21:47]     extracted: 234 annotations in 26 ms
+[09:21:47]     total: 33 ms
+[09:21:47] [78/156] virginia-republican-senate-primary-winner  (markers=231)
+[09:21:47]     fetched: 1.71 MB, 19 ms, from_cache=True
+[09:21:47]     extracted: 231 annotations in 21 ms
+[09:21:47]     total: 45 ms
+[09:21:47] [79/156] highest-grossing-movie-in-2026  (markers=229)
+[09:21:47]     fetched: 1.80 MB, 2 ms, from_cache=True
+[09:21:47]     extracted: 239 annotations in 15 ms
+[09:21:47]     total: 18 ms
+[09:21:47] [80/156] us-x-iran-effective-ceasfire-byptptpt-2-week-pause-20260715194822042  (markers=224)
+[09:21:47]     fetched: 1.82 MB, 1 ms, from_cache=True
+[09:21:47]     extracted: 236 annotations in 15 ms
+[09:21:47]     total: 17 ms
+[09:21:47] [81/156] texas-republican-senate-primary-winner  (markers=223)
+[09:21:47]     fetched: 1.69 MB, 7 ms, from_cache=True
+[09:21:47]     extracted: 223 annotations in 14 ms
+[09:21:47]     total: 23 ms
+[09:21:47] [82/156] next-french-presidential-election  (markers=221)
+[09:21:47]     fetched: 2.28 MB, 16 ms, from_cache=True
+[09:21:47]     extracted: 226 annotations in 23 ms
+[09:21:47]     total: 40 ms
+[09:21:47] [83/156] what-will-fed-rate-hit-before-2027  (markers=221)
+[09:21:47]     fetched: 1.86 MB, 59 ms, from_cache=True
+[09:21:47]     extracted: 221 annotations in 29 ms
+[09:21:47]     total: 90 ms
+[09:21:47] [84/156] maine-senate-election-winner  (markers=216)
+[09:21:47]     fetched: 1.63 MB, 2 ms, from_cache=True
+[09:21:47]     extracted: 216 annotations in 15 ms
+[09:21:47]     total: 18 ms
+[09:21:47] [85/156] extended-fdv-above-one-day-after-launch  (markers=216)
+[09:21:47]     fetched: 1.63 MB, 2 ms, from_cache=True
+[09:21:47]     extracted: 216 annotations in 15 ms
+[09:21:47]     total: 19 ms
+[09:21:47] [86/156] republican-nominee-for-florida-governor  (markers=214)
+[09:21:47]     fetched: 1.73 MB, 18 ms, from_cache=True
+[09:21:47]     extracted: 214 annotations in 16 ms
+[09:21:47]     total: 35 ms
+[09:21:47] [87/156] what-price-will-wti-hit-in-july-2026  (markers=211)
+[09:21:47]     fetched: 1.81 MB, 37 ms, from_cache=True
+[09:21:47]     extracted: 211 annotations in 15 ms
+[09:21:47]     total: 53 ms
+[09:21:47] [88/156] israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963  (markers=210)
+[09:21:47]     fetched: 1.89 MB, 33 ms, from_cache=True
+[09:21:47]     extracted: 215 annotations in 16 ms
+[09:21:47]     total: 50 ms
+[09:21:47] [89/156] macron-out-in-2025  (markers=209)
+[09:21:47]     fetched: 1.55 MB, 24 ms, from_cache=True
+[09:21:47]     extracted: 209 annotations in 15 ms
+[09:21:47]     total: 40 ms
+[09:21:47] [90/156] iran-announces-withdrawal-from-mou-negotiations-byptptpt-20260622191732319  (markers=205)
+[09:21:47]     fetched: 1.73 MB, 16 ms, from_cache=True
+[09:21:47]     extracted: 205 annotations in 15 ms
+[09:21:47]     total: 32 ms
+[09:21:47] [91/156] ipos-before-2027  (markers=198)
+[09:21:47]     fetched: 1.95 MB, 17 ms, from_cache=True
+[09:21:47]     extracted: 205 annotations in 43 ms
+[09:21:47]     total: 83 ms
+[09:21:47] [92/156] will-openais-valuation-hit-by-december-31  (markers=196)
+[09:21:47]     fetched: 1.81 MB, 9 ms, from_cache=True
+[09:21:47]     extracted: 199 annotations in 13 ms
+[09:21:47]     total: 23 ms
+[09:21:47] [93/156] where-will-trump-and-putin-meet-next-584  (markers=191)
+[09:21:47]     fetched: 1.69 MB, 1 ms, from_cache=True
+[09:21:47]     extracted: 191 annotations in 13 ms
+[09:21:47]     total: 15 ms
+[09:21:47] [94/156] peru-presidential-election-winner  (markers=187)
+[09:21:47]     fetched: 1.80 MB, 34 ms, from_cache=True
+[09:21:47]     extracted: 187 annotations in 13 ms
+[09:21:47]     total: 48 ms
+[09:21:47] [95/156] bab-el-mandeb-strait-effectively-closed-by  (markers=186)
+[09:21:47]     fetched: 1.59 MB, 2 ms, from_cache=True
+[09:21:47]     extracted: 186 annotations in 13 ms
+[09:21:47]     total: 15 ms
+[09:21:47] [96/156] what-iranian-demands-will-trump-agree-to-by-may-31  (markers=184)
+[09:21:47]     fetched: 1.55 MB, 54 ms, from_cache=True
+[09:21:47]     extracted: 184 annotations in 13 ms
+[09:21:47]     total: 68 ms
+[09:21:47] [97/156] colombia-presidential-election-1st-round-winner  (markers=184)
+[09:21:47]     fetched: 1.69 MB, 1 ms, from_cache=True
+[09:21:47]     extracted: 184 annotations in 12 ms
+[09:21:47]     total: 14 ms
+[09:21:47] [98/156] maine-democratic-senate-primary-winner  (markers=182)
+[09:21:47]     fetched: 1.54 MB, 4 ms, from_cache=True
+[09:21:47]     extracted: 182 annotations in 12 ms
+[09:21:47]     total: 17 ms
+[09:21:47] [99/156] discord-ipo-closing-market-cap  (markers=178)
+[09:21:47]     fetched: 1.53 MB, 33 ms, from_cache=True
+[09:21:47]     extracted: 178 annotations in 11 ms
+[09:21:47]     total: 45 ms
+[09:21:47] [100/156] michigan-democratic-senate-primary-winner  (markers=172)
+[09:21:47]     fetched: 1.48 MB, 4 ms, from_cache=True
+[09:21:48]     extracted: 176 annotations in 11 ms
+[09:21:48]     total: 15 ms
+[09:21:48] [101/156] variational-fdv-above-one-day-after-launch  (markers=164)
+[09:21:48]     fetched: 1.50 MB, 36 ms, from_cache=True
+[09:21:48]     extracted: 166 annotations in 12 ms
+[09:21:48]     total: 48 ms
+[09:21:48] [102/156] what-price-will-hyperliquid-hit-before-2027  (markers=164)
+[09:21:48]     fetched: 1.53 MB, 15 ms, from_cache=True
+[09:21:48]     extracted: 164 annotations in 10 ms
+[09:21:48]     total: 26 ms
+[09:21:48] [103/156] us-announces-new-iran-agreementceasefire-extension-by  (markers=161)
+[09:21:48]     fetched: 1.70 MB, 10 ms, from_cache=True
+[09:21:48]     extracted: 161 annotations in 11 ms
+[09:21:48]     total: 21 ms
+[09:21:48] [104/156] french-election-called-by  (markers=151)
+[09:21:48]     fetched: 1.38 MB, 13 ms, from_cache=True
+[09:21:48]     extracted: 151 annotations in 11 ms
+[09:21:48]     total: 24 ms
+[09:21:48] [105/156] which-country-will-join-abraham-accords-before-2027  (markers=137)
+[09:21:48]     fetched: 1.39 MB, 6 ms, from_cache=True
+[09:21:48]     extracted: 139 annotations in 9 ms
+[09:21:48]     total: 16 ms
+[09:21:48] [106/156] iran-charges-hormuz-fees-byptptpt-20260625175035466  (markers=121)
+[09:21:48]     fetched: 1.31 MB, 15 ms, from_cache=True
+[09:21:48]     extracted: 129 annotations in 9 ms
+[09:21:48]     total: 24 ms
+[09:21:48] [107/156] iran-closes-its-airspace-by  (markers=120)
+[09:21:48]     fetched: 1.42 MB, 12 ms, from_cache=True
+[09:21:48]     extracted: 120 annotations in 9 ms
+[09:21:48]     total: 22 ms
+[09:21:48] [108/156] gpt-5pt6-released-by  (markers=116)
+[09:21:48]     fetched: 1.36 MB, 12 ms, from_cache=True
+[09:21:48]     extracted: 116 annotations in 8 ms
+[09:21:48]     total: 20 ms
+[09:21:48] [109/156] ky-04-republican-primary-winner  (markers=111)
+[09:21:48]     fetched: 1.16 MB, 27 ms, from_cache=True
+[09:21:48]     extracted: 111 annotations in 7 ms
+[09:21:48]     total: 35 ms
+[09:21:48] [110/156] spacex-ipo-closing-market-cap-above  (markers=95)
+[09:21:48]     fetched: 1.20 MB, 1 ms, from_cache=True
+[09:21:48]     extracted: 95 annotations in 6 ms
+[09:21:48]     total: 7 ms
+[09:21:48] [111/156] what-price-will-bitcoin-hit-before-2027  (markers=89)
+[09:21:48]     fetched: 1.43 MB, 11 ms, from_cache=True
+[09:21:48]     extracted: 89 annotations in 6 ms
+[09:21:48]     total: 18 ms
+[09:21:48] [112/156] will-hamaz-disarm-by-december-31  (markers=89)
+[09:21:48]     fetched: 1.09 MB, 1 ms, from_cache=True
+[09:21:48]     extracted: 89 annotations in 6 ms
+[09:21:48]     total: 8 ms
+[09:21:48] [113/156] next-uk-prime-minister-in-2026-122  (markers=81)
+[09:21:48]     fetched: 1.27 MB, 1 ms, from_cache=True
+[09:21:48]     extracted: 81 annotations in 5 ms
+[09:21:48]     total: 7 ms
+[09:21:48] [114/156] what-price-will-ethereum-hit-before-2027  (markers=80)
+[09:21:48]     fetched: 1.24 MB, 8 ms, from_cache=True
+[09:21:48]     extracted: 80 annotations in 5 ms
+[09:21:48]     total: 14 ms
+[09:21:48] [115/156] clacton-by-election-winner-20260707143521303  (markers=79)
+[09:21:48]     fetched: 1.13 MB, 3 ms, from_cache=True
+[09:21:48]     extracted: 79 annotations in 5 ms
+[09:21:48]     total: 9 ms
+[09:21:48] [116/156] strait-of-hormuz-traffic-returns-to-normal-by-august-31-20260702154212320  (markers=74)
+[09:21:48]     fetched: 1.01 MB, 1 ms, from_cache=True
+[09:21:48]     extracted: 74 annotations in 5 ms
+[09:21:48]     total: 7 ms
+[09:21:48] [117/156] will-trump-visit-china-by  (markers=70)
+[09:21:48]     fetched: 1.11 MB, 1 ms, from_cache=True
+[09:21:48]     extracted: 70 annotations in 6 ms
+[09:21:48]     total: 8 ms
+[09:21:48] [118/156] trump-announces-us-x-iran-ceasefire-over-byptptpt-20260607232555290  (markers=70)
+[09:21:48]     fetched: 1.00 MB, 4 ms, from_cache=True
+[09:21:48]     extracted: 70 annotations in 5 ms
+[09:21:48]     total: 9 ms
+[09:21:48] [119/156] claude-fable-5-restored-for-us-customers-by-20260613193753196  (markers=68)
+[09:21:48]     fetched: 1.17 MB, 21 ms, from_cache=True
+[09:21:48]     extracted: 68 annotations in 5 ms
+[09:21:48]     total: 27 ms
+[09:21:48] [120/156] 2026-seoul-mayoral-election-winner  (markers=66)
+[09:21:48]     fetched: 1.21 MB, 5 ms, from_cache=True
+[09:21:48]     extracted: 66 annotations in 6 ms
+[09:21:48]     total: 11 ms
+[09:21:48] [121/156] where-will-the-next-us-iran-diplomatic-meeting-happen-455  (markers=63)
+[09:21:48]     fetched: 1.17 MB, 19 ms, from_cache=True
+[09:21:48]     extracted: 63 annotations in 4 ms
+[09:21:48]     total: 23 ms
+[09:21:48] [122/156] us-announces-halt-in-iran-offensive-operations-byptptpt-20260718015003096  (markers=63)
+[09:21:48]     fetched: 1.03 MB, 8 ms, from_cache=True
+[09:21:48]     extracted: 63 annotations in 4 ms
+[09:21:48]     total: 12 ms
+[09:21:48] [123/156] claude-5-released-by  (markers=61)
+[09:21:48]     fetched: 1.00 MB, 1 ms, from_cache=True
+[09:21:48]     extracted: 61 annotations in 4 ms
+[09:21:48]     total: 5 ms
+[09:21:48] [124/156] who-will-attend-taylor-swift-and-travis-kelces-wedding  (markers=60)
+[09:21:48]     fetched: 0.96 MB, 30 ms, from_cache=True
+[09:21:48]     extracted: 60 annotations in 4 ms
+[09:21:48]     total: 35 ms
+[09:21:48] [125/156] who-will-advance-from-the-california-governor-primary  (markers=58)
+[09:21:48]     fetched: 1.23 MB, 6 ms, from_cache=True
+[09:21:48]     extracted: 58 annotations in 4 ms
+[09:21:48]     total: 11 ms
+[09:21:48] [126/156] israel-x-hamas-ceasefire-cancelled-by-october-31  (markers=52)
+[09:21:48]     fetched: 0.91 MB, 1 ms, from_cache=True
+[09:21:48]     extracted: 52 annotations in 4 ms
+[09:21:48]     total: 5 ms
+[09:21:48] [127/156] iran-ceasefire-continues-through  (markers=43)
+[09:21:48]     fetched: 0.99 MB, 1 ms, from_cache=True
+[09:21:48]     extracted: 43 annotations in 3 ms
+[09:21:48]     total: 4 ms
+[09:21:48] [128/156] us-announces-blockade-on-iran-byptptpt-20260622191049039  (markers=42)
+[09:21:48]     fetched: 0.88 MB, 3 ms, from_cache=True
+[09:21:48]     extracted: 42 annotations in 3 ms
+[09:21:48]     total: 6 ms
+[09:21:48] [129/156] will-trump-visit-china-on  (markers=41)
+[09:21:48]     fetched: 1.18 MB, 1 ms, from_cache=True
+[09:21:48]     extracted: 41 annotations in 4 ms
+[09:21:48]     total: 6 ms
+[09:21:48] [130/156] how-many-7pt0-or-above-earthquakes-by-june-30  (markers=39)
+[09:21:48]     fetched: 0.79 MB, 5 ms, from_cache=True
+[09:21:48]     extracted: 39 annotations in 3 ms
+[09:21:48]     total: 8 ms
+[09:21:48] [131/156] kash-patel-out-by  (markers=38)
+[09:21:48]     fetched: 0.90 MB, 1 ms, from_cache=True
+[09:21:48]     extracted: 38 annotations in 4 ms
+[09:21:48]     total: 5 ms
+[09:21:48] [132/156] fed-decision-in-september-762  (markers=35)
+[09:21:48]     fetched: 0.88 MB, 6 ms, from_cache=True
+[09:21:48]     extracted: 36 annotations in 3 ms
+[09:21:48]     total: 9 ms
+[09:21:48] [133/156] ohio-governor-republican-primary-winner  (markers=31)
+[09:21:48]     fetched: 0.82 MB, 2 ms, from_cache=True
+[09:21:48]     extracted: 31 annotations in 15 ms
+[09:21:48]     total: 17 ms
+[09:21:48] [134/156] largest-company-end-of-july-20260624192302727  (markers=30)
+[09:21:48]     fetched: 0.87 MB, 12 ms, from_cache=True
+[09:21:48]     extracted: 30 annotations in 2 ms
+[09:21:48]     total: 14 ms
+[09:21:48] [135/156] what-will-the-us-agree-to  (markers=27)
+[09:21:48]     fetched: 0.87 MB, 10 ms, from_cache=True
+[09:21:48]     extracted: 27 annotations in 3 ms
+[09:21:48]     total: 13 ms
+[09:21:48] [136/156] west-bengal-legislative-assembly-election-winner  (markers=26)
+[09:21:48]     fetched: 0.88 MB, 8 ms, from_cache=True
+[09:21:48]     extracted: 26 annotations in 3 ms
+[09:21:48]     total: 11 ms
+[09:21:48] [137/156] claude-mythos-released-by  (markers=26)
+[09:21:48]     fetched: 0.84 MB, 5 ms, from_cache=True
+[09:21:48]     extracted: 26 annotations in 2 ms
+[09:21:48]     total: 7 ms
+[09:21:48] [138/156] us-iran-deal-text-released-byptptpt-20260615224044572  (markers=25)
+[09:21:48]     fetched: 0.81 MB, 11 ms, from_cache=True
+[09:21:48]     extracted: 25 annotations in 2 ms
+[09:21:48]     total: 13 ms
+[09:21:48] [139/156] epstein-client-list-released-in-2025-372  (markers=21)
+[09:21:48]     fetched: 0.74 MB, 8 ms, from_cache=True
+[09:21:48]     extracted: 21 annotations in 2 ms
+[09:21:48]     total: 10 ms
+[09:21:48] [140/156] will-grahm-platner-drop-out-before-the-midterms-20260608200746523  (markers=21)
+[09:21:48]     fetched: 0.78 MB, 10 ms, from_cache=True
+[09:21:48]     extracted: 21 annotations in 2 ms
+[09:21:48]     total: 12 ms
+[09:21:48] [141/156] alaska-governor-election-winner  (markers=20)
+[09:21:48]     fetched: 1.00 MB, 9 ms, from_cache=True
+[09:21:48]     extracted: 20 annotations in 2 ms
+[09:21:48]     total: 11 ms
+[09:21:48] [142/156] what-price-will-wti-hit-in-august-2026  (markers=19)
+[09:21:48]     fetched: 1.04 MB, 19 ms, from_cache=True
+[09:21:48]     extracted: 26 annotations in 2 ms
+[09:21:48]     total: 22 ms
+[09:21:48] [143/156] next-prime-minister-of-hungary  (markers=16)
+[09:21:48]     fetched: 0.78 MB, 1 ms, from_cache=True
+[09:21:48]     extracted: 16 annotations in 2 ms
+[09:21:48]     total: 3 ms
+[09:21:48] [144/156] will-russia-invade-a-nato-country-in-2025  (markers=16)
+[09:21:48]     fetched: 0.66 MB, 5 ms, from_cache=True
+[09:21:48]     extracted: 16 annotations in 2 ms
+[09:21:48]     total: 7 ms
+[09:21:48] [145/156] fed-decision-in-april  (markers=15)
+[09:21:48]     fetched: 0.72 MB, 10 ms, from_cache=True
+[09:21:48]     extracted: 15 annotations in 2 ms
+[09:21:48]     total: 12 ms
+[09:21:48] [146/156] israel-and-indonesia-normalize-relations-by  (markers=14)
+[09:21:48]     fetched: 0.68 MB, 1 ms, from_cache=True
+[09:21:48]     extracted: 14 annotations in 2 ms
+[09:21:48]     total: 3 ms
+[09:21:48] [147/156] makerfield-by-election-winner  (markers=13)
+[09:21:48]     fetched: 0.73 MB, 24 ms, from_cache=True
+[09:21:48]     extracted: 13 annotations in 1 ms
+[09:21:48]     total: 26 ms
+[09:21:48] [148/156] chungcheongnam-province-governor-election-winner  (markers=12)
+[09:21:48]     fetched: 0.73 MB, 9 ms, from_cache=True
+[09:21:48]     extracted: 12 annotations in 1 ms
+[09:21:48]     total: 10 ms
+[09:21:48] [149/156] incheon-mayoral-election-winner  (markers=11)
+[09:21:48]     fetched: 0.77 MB, 3 ms, from_cache=True
+[09:21:48]     extracted: 11 annotations in 1 ms
+[09:21:48]     total: 4 ms
+[09:21:48] [150/156] will-hezbollah-disarm-by-march-31  (markers=8)
+[09:21:48]     fetched: 0.68 MB, 1 ms, from_cache=True
+[09:21:48]     extracted: 8 annotations in 1 ms
+[09:21:48]     total: 2 ms
+[09:21:48] [151/156] next-uk-chancellor-of-the-exchequer-in-2026-20260621005319178  (markers=8)
+[09:21:48]     fetched: 0.79 MB, 15 ms, from_cache=True
+[09:21:48]     extracted: 8 annotations in 1 ms
+[09:21:48]     total: 17 ms
+[09:21:48] [152/156] james-comey-arrested-by-may-15  (markers=6)
+[09:21:48]     fetched: 0.66 MB, 3 ms, from_cache=True
+[09:21:48]     extracted: 6 annotations in 1 ms
+[09:21:48]     total: 4 ms
+[09:21:48] [153/156] next-claude-opus-released-byptptpt-20260701204710232  (markers=4)
+[09:21:48]     fetched: 0.73 MB, 22 ms, from_cache=True
+[09:21:48]     extracted: 4 annotations in 1 ms
+[09:21:48]     total: 23 ms
+[09:21:48] [154/156] spacex-ipo-closing-market-cap  (markers=4)
+[09:21:48]     fetched: 0.70 MB, 1 ms, from_cache=True
+[09:21:48]     extracted: 4 annotations in 1 ms
+[09:21:48]     total: 2 ms
+[09:21:48] [155/156] 2026-gyeonggi-province-gubernatorial-election-winner  (markers=3)
+[09:21:48]     fetched: 0.77 MB, 15 ms, from_cache=True
+[09:21:48]     extracted: 3 annotations in 1 ms
+[09:21:48]     total: 16 ms
+[09:21:48] [156/156] who-will-be-confirmed-as-fed-chair  (markers=3)
+[09:21:48]     fetched: 0.70 MB, 10 ms, from_cache=True
+[09:21:48]     extracted: 3 annotations in 1 ms
+[09:21:48]     total: 11 ms
+[09:21:49] Wrote 67,470 annotation rows to /Users/mehtad/Development/polymarket_analysis_public/market_context_check/annotations_new.csv
+[09:21:49] Markets covered: 156

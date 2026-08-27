@@ -42,4 +42,6 @@ This file contains one row for every citation on a Polymarket "Market Context" t
 
 ## About
 
-Collected and analyzed by **Tory Lysik**, Tow Center for Digital Journalism, Columbia University.
+Collected and analyzed by **Tory Lysik** and **Dhrumil Mehta**, Tow Center for Digital Journalism, Columbia University.
+
+Please direct questions or concerns to towcentercuj@gmail.com.

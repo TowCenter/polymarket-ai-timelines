@@ -1,6 +1,6 @@
 # Polymarket Timelines
 
-Dataset of AI-generated timeline annotations from Polymarket, collected and analyzed by the Tow Center for Digital Journalism at Columbia University.
+This repository contains the data behind the story [Polymarket’s AI is Feeding Users Fabricated Information](https://www.cjr.org/tow_center/polymarkets-ai-is-feeding-users-fabricated-information.php). The data contains AI-generated timeline annotations from Polymarket, collected and analyzed by the Tow Center for Digital Journalism at Columbia University.
 
 ## Background
 
